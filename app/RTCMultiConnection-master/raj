@@ -1,0 +1,2292 @@
+------------------------------
+socket.io is listening at:
+[31m	http://localhost:31506/[0m 
+
+
+Your web-browser (HTML file) MUST set this line:
+[31mconnection.socketURL = "http://localhost:31506/";[0m 
+------------------------------
+Need help? http://bit.ly/2ff7QGk
+2Connect with param : { 'EIO:3': '',
+  EIO: '3',
+  autoCloseEntireSession: 'false',
+  sessionid: 'raj',
+  socketCustomEvent: 'RTCMultiConnection-Custom-Message',
+  'transport:polling': '',
+  log: 'true',
+  't:LqiYB5k': '',
+  maxParticipantsAllowed: '1000',
+  userid: 'raj',
+  transport: 'polling',
+  msgEvent: 'video-conference-demo' }
+1list of users'raj'
+2Connect with param : { userid: '109zasjeud6lm161n194',
+  sessionid: 'raj',
+  msgEvent: 'video-conference-demo',
+  socketCustomEvent: 'RTCMultiConnection-Custom-Message',
+  autoCloseEntireSession: 'false',
+  maxParticipantsAllowed: '1000',
+  EIO: '3',
+  transport: 'polling',
+  t: 'LrVs63-' }
+1list of users'109zasjeud6lm161n194'
+3{}
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { newParticipationRequest: true,
+     isOneWay: false,
+     isDataOnly: false,
+     localPeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true },
+     remotePeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true } },
+  sender: '109zasjeud6lm161n194',
+  password: false }
+10socketMessageEvent reached
+6joinARoom with Param : { remoteUserId: 'raj',
+  message: 
+   { newParticipationRequest: true,
+     isOneWay: false,
+     isDataOnly: false,
+     localPeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true },
+     remotePeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true } },
+  sender: '109zasjeud6lm161n194',
+  password: false }
+7socketMessageEvent { remoteUserId: '109zasjeud6lm161n194',
+  sender: 'raj',
+  message: 
+   { type: 'offer',
+     sdp: 'v=0\r\no=- 3620078700000697725 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE audio video\r\na=msid-semantic: WMS\r\nm=audio 9 RTP/SAVPF 111 103 104 9 102 0 8 106 105 13 127 126\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:1q5GWLmywTT7Px7C\r\na=ice-pwd:JkoWWLpJBswskvIrE3tAx0WC\r\na=fingerprint:sha-1 6F:3A:3D:C1:53:9B:BB:FE:83:FF:D1:3A:C7:B8:B6:3D:9D:6C:72:12\r\na=setup:actpass\r\na=mid:audio\r\na=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=recvonly\r\na=rtcp-mux\r\na=rtpmap:111 opus/48000/2\r\na=fmtp:111 minptime=10; useinbandfec=1\r\na=rtpmap:103 ISAC/16000\r\na=rtpmap:104 ISAC/32000\r\na=rtpmap:9 G722/8000\r\na=rtpmap:102 ILBC/8000\r\na=rtpmap:0 PCMU/8000\r\na=rtpmap:8 PCMA/8000\r\na=rtpmap:106 CN/32000\r\na=rtpmap:105 CN/16000\r\na=rtpmap:13 CN/8000\r\na=rtpmap:127 red/8000\r\na=rtpmap:126 telephone-event/8000\r\na=maxptime:60\r\nm=video 9 RTP/SAVPF 100 116 117 96\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:1q5GWLmywTT7Px7C\r\na=ice-pwd:JkoWWLpJBswskvIrE3tAx0WC\r\na=fingerprint:sha-1 6F:3A:3D:C1:53:9B:BB:FE:83:FF:D1:3A:C7:B8:B6:3D:9D:6C:72:12\r\na=setup:actpass\r\na=mid:video\r\na=extmap:2 urn:ietf:params:rtp-hdrext:toffset\r\na=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:4 urn:3gpp:video-orientation\r\na=recvonly\r\na=rtcp-mux\r\na=rtpmap:100 VP8/90000\r\na=rtcp-fb:100 ccm fir\r\na=rtcp-fb:100 nack\r\na=rtcp-fb:100 nack pli\r\na=rtcp-fb:100 goog-remb\r\na=rtpmap:116 red/90000\r\na=rtpmap:117 ulpfec/90000\r\na=rtpmap:96 rtx/90000\r\na=fmtp:96 apt=100\r\n',
+     remotePeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true },
+     renegotiatingPeer: false,
+     connectionDescription: 
+      { remoteUserId: 'raj',
+        message: 
+         { newParticipationRequest: true,
+           isOneWay: false,
+           isDataOnly: false,
+           localPeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true },
+           remotePeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true } },
+        sender: '109zasjeud6lm161n194',
+        password: false },
+     dontGetRemoteStream: false,
+     extra: {},
+     streamsToShare: { isAudio: false, isVideo: true, isScreen: false },
+     isFirefoxOffered: true } }
+7socketMessageEvent { remoteUserId: '109zasjeud6lm161n194',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:597204161 1 udp 2122260223 192.168.100.184 38062 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: '109zasjeud6lm161n194',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:3025050341 1 udp 2122194687 192.168.200.2 45875 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: '109zasjeud6lm161n194',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:3347434956 1 udp 2122121727 fec0::ff:fe00:0 59332 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: '109zasjeud6lm161n194',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:597204161 2 udp 2122260222 192.168.100.184 51278 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: '109zasjeud6lm161n194',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:3025050341 2 udp 2122194686 192.168.200.2 47390 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: '109zasjeud6lm161n194',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:3347434956 2 udp 2122121726 fec0::ff:fe00:0 34169 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: '109zasjeud6lm161n194',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:597204161 1 udp 2122260223 192.168.100.184 47495 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: '109zasjeud6lm161n194',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:3025050341 1 udp 2122194687 192.168.200.2 39397 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: '109zasjeud6lm161n194',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:3347434956 1 udp 2122121727 fec0::ff:fe00:0 54452 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: '109zasjeud6lm161n194',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:597204161 2 udp 2122260222 192.168.100.184 60342 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: '109zasjeud6lm161n194',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:3025050341 2 udp 2122194686 192.168.200.2 48606 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: '109zasjeud6lm161n194',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:3347434956 2 udp 2122121726 fec0::ff:fe00:0 57090 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { type: 'answer',
+     sdp: 'v=0\r\no=mozilla...THIS_IS_SDPARTA-54.0 7028140543433914366 0 IN IP4 0.0.0.0\r\ns=-\r\nt=0 0\r\na=fingerprint:sha-256 51:5E:44:6F:9E:31:52:33:90:1A:4E:7D:13:4C:1B:D2:93:9A:D5:4A:50:34:F2:BE:3C:8D:38:58:67:A4:BA:19\r\na=group:BUNDLE audio video\r\na=ice-options:trickle\r\na=msid-semantic:WMS *\r\nm=audio 9 RTP/SAVPF 111 126\r\nc=IN IP4 0.0.0.0\r\na=sendonly\r\na=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=ice-pwd:4a189d4708f07b909454cc5a3b7b4924\r\na=ice-ufrag:8b26f6e1\r\na=mid:audio\r\na=msid:{7e2886d5-8185-486e-b2a8-3cb364dbade1} {56afc4d3-5d43-44cb-92f0-47e188e43b45}\r\na=rtcp-mux\r\na=rtpmap:111 opus/48000/2\r\na=rtpmap:126 telephone-event/8000/1\r\na=setup:active\r\na=ssrc:1994699409 cname:{fa43f9a5-357a-4b94-802a-b19808da0dee}\r\nm=video 9 RTP/SAVPF 100\r\nc=IN IP4 0.0.0.0\r\na=sendonly\r\na=extmap:2 urn:ietf:params:rtp-hdrext:toffset\r\na=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=ice-pwd:4a189d4708f07b909454cc5a3b7b4924\r\na=ice-ufrag:8b26f6e1\r\na=mid:video\r\na=msid:{7e2886d5-8185-486e-b2a8-3cb364dbade1} {5bf79b52-36e5-48bb-8366-b155fc26d6cb}\r\na=rtcp-fb:100 nack\r\na=rtcp-fb:100 nack pli\r\na=rtcp-fb:100 ccm fir\r\na=rtcp-fb:100 goog-remb\r\na=rtcp-mux\r\na=rtpmap:100 VP8/90000\r\na=setup:active\r\na=ssrc:2366007946 cname:{fa43f9a5-357a-4b94-802a-b19808da0dee}\r\n',
+     remotePeerSdpConstraints: false,
+     renegotiatingPeer: false,
+     connectionDescription: 
+      { remoteUserId: 'raj',
+        message: 
+         { newParticipationRequest: true,
+           isOneWay: false,
+           isDataOnly: false,
+           localPeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true },
+           remotePeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true } },
+        sender: '109zasjeud6lm161n194',
+        password: false },
+     dontGetRemoteStream: false,
+     extra: {},
+     streamsToShare: { '{7e2886d5-8185-486e-b2a8-3cb364dbade1}': { isAudio: false, isVideo: true, isScreen: false } },
+     isFirefoxOffered: true },
+  sender: '109zasjeud6lm161n194' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:0 1 UDP 2122121471 192.168.7.73 45974 typ host',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: '109zasjeud6lm161n194' }
+7socketMessageEvent { remoteUserId: '109zasjeud6lm161n194',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:1246941952 1 udp 1686052607 103.15.66.210 49708 typ srflx raddr 192.168.100.184 rport 38062 generation 0' } }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:10 1 UDP 2122252543 192.168.0.73 49158 typ host',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: '109zasjeud6lm161n194' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:20 1 UDP 2122187007 192.168.1.73 43811 typ host',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: '109zasjeud6lm161n194' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:30 1 TCP 2105377023 192.168.7.73 60899 typ host tcptype passive',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: '109zasjeud6lm161n194' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:30 1 TCP 2105393407 192.168.7.73 9 typ host tcptype active',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: '109zasjeud6lm161n194' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:37 1 TCP 2105508095 192.168.0.73 55815 typ host tcptype passive',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: '109zasjeud6lm161n194' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:37 1 TCP 2105524479 192.168.0.73 9 typ host tcptype active',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: '109zasjeud6lm161n194' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:44 1 TCP 2105442559 192.168.1.73 64173 typ host tcptype passive',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: '109zasjeud6lm161n194' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:44 1 TCP 2105458943 192.168.1.73 9 typ host tcptype active',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: '109zasjeud6lm161n194' }
+7socketMessageEvent { remoteUserId: '109zasjeud6lm161n194',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:1246941952 2 udp 1686052606 103.15.66.210 60338 typ srflx raddr 192.168.100.184 rport 51278 generation 0' } }
+7socketMessageEvent { remoteUserId: '109zasjeud6lm161n194',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:1830510641 1 tcp 1518280447 192.168.100.184 32905 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: '109zasjeud6lm161n194',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:4207765013 1 tcp 1518214911 192.168.200.2 56001 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: '109zasjeud6lm161n194',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:2298884412 1 tcp 1518141951 fec0::ff:fe00:0 36836 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: '109zasjeud6lm161n194',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:1830510641 2 tcp 1518280446 192.168.100.184 57077 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: '109zasjeud6lm161n194',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:4207765013 2 tcp 1518214910 192.168.200.2 39639 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: '109zasjeud6lm161n194',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:2298884412 2 tcp 1518141950 fec0::ff:fe00:0 47935 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: '109zasjeud6lm161n194',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:1246941952 1 udp 1686052607 103.15.66.210 49708 typ srflx raddr 192.168.100.184 rport 38062 generation 0' } }
+7socketMessageEvent { remoteUserId: '109zasjeud6lm161n194',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:1246941952 2 udp 1686052606 103.15.66.210 60338 typ srflx raddr 192.168.100.184 rport 51278 generation 0' } }
+7socketMessageEvent { remoteUserId: '109zasjeud6lm161n194',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:1830510641 1 tcp 1518280447 192.168.100.184 32905 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: '109zasjeud6lm161n194',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:4207765013 1 tcp 1518214911 192.168.200.2 56001 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: '109zasjeud6lm161n194',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:2298884412 1 tcp 1518141951 fec0::ff:fe00:0 36836 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: '109zasjeud6lm161n194',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:1830510641 2 tcp 1518280446 192.168.100.184 57077 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: '109zasjeud6lm161n194',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:4207765013 2 tcp 1518214910 192.168.200.2 39639 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: '109zasjeud6lm161n194',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:2298884412 2 tcp 1518141950 fec0::ff:fe00:0 47935 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:2 1 UDP 1685921535 103.15.66.210 45974 typ srflx raddr 192.168.7.73 rport 45974',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: '109zasjeud6lm161n194' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:5 1 UDP 92085503 64.251.31.85 49552 typ relay raddr 64.251.31.85 rport 49552',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: '109zasjeud6lm161n194' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:31 1 TCP 1669160959 103.15.66.210 60899 typ srflx raddr 192.168.7.73 rport 60899 tcptype passive',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: '109zasjeud6lm161n194' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:7 1 UDP 92085247 64.251.31.85 59224 typ relay raddr 64.251.31.85 rport 59224',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: '109zasjeud6lm161n194' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:9 1 UDP 92084479 64.251.31.85 60990 typ relay raddr 64.251.31.85 rport 60990',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: '109zasjeud6lm161n194' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:32 1 UDP 8200191 64.251.31.85 60881 typ relay raddr 64.251.31.85 rport 60881',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: '109zasjeud6lm161n194' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:34 1 UDP 8200191 64.251.31.85 62641 typ relay raddr 64.251.31.85 rport 62641',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: '109zasjeud6lm161n194' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:36 1 UDP 8200191 64.251.31.85 40045 typ relay raddr 64.251.31.85 rport 40045',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: '109zasjeud6lm161n194' }
+2Connect with param : { 'EIO:3': '',
+  EIO: '3',
+  autoCloseEntireSession: 'false',
+  sessionid: 'raj',
+  socketCustomEvent: 'RTCMultiConnection-Custom-Message',
+  'transport:polling': '',
+  log: 'true',
+  't:LqiYB5k': '',
+  maxParticipantsAllowed: '1000',
+  userid: 'raj',
+  transport: 'polling',
+  msgEvent: 'video-conference-demo' }
+1list of users'6701162843964994'
+2Connect with param : { 'EIO:3': '',
+  EIO: '3',
+  autoCloseEntireSession: 'false',
+  sessionid: 'raj',
+  socketCustomEvent: 'RTCMultiConnection-Custom-Message',
+  'transport:polling': '',
+  log: 'true',
+  't:LqiYB5k': '',
+  maxParticipantsAllowed: '1000',
+  userid: 'raj',
+  transport: 'polling',
+  msgEvent: 'video-conference-demo' }
+1list of users'raj'
+2Connect with param : { userid: 'zwcim91mpl56yh64l22',
+  sessionid: 'raj',
+  msgEvent: 'video-conference-demo',
+  socketCustomEvent: 'RTCMultiConnection-Custom-Message',
+  autoCloseEntireSession: 'false',
+  maxParticipantsAllowed: '1000',
+  EIO: '3',
+  transport: 'polling',
+  t: 'LrV_5Nt' }
+1list of users'zwcim91mpl56yh64l22'
+3{}
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { newParticipationRequest: true,
+     isOneWay: false,
+     isDataOnly: false,
+     localPeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true },
+     remotePeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true } },
+  sender: 'zwcim91mpl56yh64l22',
+  password: false }
+10socketMessageEvent reached
+6joinARoom with Param : { remoteUserId: 'raj',
+  message: 
+   { newParticipationRequest: true,
+     isOneWay: false,
+     isDataOnly: false,
+     localPeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true },
+     remotePeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true } },
+  sender: 'zwcim91mpl56yh64l22',
+  password: false }
+7socketMessageEvent { remoteUserId: 'zwcim91mpl56yh64l22',
+  sender: 'raj',
+  message: 
+   { type: 'offer',
+     sdp: 'v=0\r\no=- 8359711014568941260 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE audio video\r\na=msid-semantic: WMS\r\nm=audio 9 RTP/SAVPF 111 103 104 9 102 0 8 106 105 13 127 126\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:Fg0h2b+7DcXUZ/Yi\r\na=ice-pwd:ZkhcGdIt13PBt3+NoiKkfI8J\r\na=fingerprint:sha-1 91:ED:6F:47:49:22:9F:9D:49:19:45:12:DC:77:D6:21:0B:C3:BA:19\r\na=setup:actpass\r\na=mid:audio\r\na=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=recvonly\r\na=rtcp-mux\r\na=rtpmap:111 opus/48000/2\r\na=fmtp:111 minptime=10; useinbandfec=1\r\na=rtpmap:103 ISAC/16000\r\na=rtpmap:104 ISAC/32000\r\na=rtpmap:9 G722/8000\r\na=rtpmap:102 ILBC/8000\r\na=rtpmap:0 PCMU/8000\r\na=rtpmap:8 PCMA/8000\r\na=rtpmap:106 CN/32000\r\na=rtpmap:105 CN/16000\r\na=rtpmap:13 CN/8000\r\na=rtpmap:127 red/8000\r\na=rtpmap:126 telephone-event/8000\r\na=maxptime:60\r\nm=video 9 RTP/SAVPF 100 116 117 96\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:Fg0h2b+7DcXUZ/Yi\r\na=ice-pwd:ZkhcGdIt13PBt3+NoiKkfI8J\r\na=fingerprint:sha-1 91:ED:6F:47:49:22:9F:9D:49:19:45:12:DC:77:D6:21:0B:C3:BA:19\r\na=setup:actpass\r\na=mid:video\r\na=extmap:2 urn:ietf:params:rtp-hdrext:toffset\r\na=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:4 urn:3gpp:video-orientation\r\na=recvonly\r\na=rtcp-mux\r\na=rtpmap:100 VP8/90000\r\na=rtcp-fb:100 ccm fir\r\na=rtcp-fb:100 nack\r\na=rtcp-fb:100 nack pli\r\na=rtcp-fb:100 goog-remb\r\na=rtpmap:116 red/90000\r\na=rtpmap:117 ulpfec/90000\r\na=rtpmap:96 rtx/90000\r\na=fmtp:96 apt=100\r\n',
+     remotePeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true },
+     renegotiatingPeer: false,
+     connectionDescription: 
+      { remoteUserId: 'raj',
+        message: 
+         { newParticipationRequest: true,
+           isOneWay: false,
+           isDataOnly: false,
+           localPeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true },
+           remotePeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true } },
+        sender: 'zwcim91mpl56yh64l22',
+        password: false },
+     dontGetRemoteStream: false,
+     extra: {},
+     streamsToShare: { isAudio: false, isVideo: true, isScreen: false },
+     isFirefoxOffered: true } }
+7socketMessageEvent { remoteUserId: 'zwcim91mpl56yh64l22',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:597204161 1 udp 2122260223 192.168.100.184 56671 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: 'zwcim91mpl56yh64l22',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:3025050341 1 udp 2122194687 192.168.200.2 57386 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: 'zwcim91mpl56yh64l22',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:3347434956 1 udp 2122121727 fec0::ff:fe00:0 39632 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: 'zwcim91mpl56yh64l22',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:597204161 2 udp 2122260222 192.168.100.184 52358 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: 'zwcim91mpl56yh64l22',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:3025050341 2 udp 2122194686 192.168.200.2 39751 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: 'zwcim91mpl56yh64l22',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:3347434956 2 udp 2122121726 fec0::ff:fe00:0 58544 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: 'zwcim91mpl56yh64l22',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:597204161 1 udp 2122260223 192.168.100.184 56786 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: 'zwcim91mpl56yh64l22',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:3025050341 1 udp 2122194687 192.168.200.2 41576 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: 'zwcim91mpl56yh64l22',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:3347434956 1 udp 2122121727 fec0::ff:fe00:0 35748 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: 'zwcim91mpl56yh64l22',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:597204161 2 udp 2122260222 192.168.100.184 56376 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: 'zwcim91mpl56yh64l22',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:3025050341 2 udp 2122194686 192.168.200.2 53951 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: 'zwcim91mpl56yh64l22',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:3347434956 2 udp 2122121726 fec0::ff:fe00:0 43370 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { type: 'answer',
+     sdp: 'v=0\r\no=mozilla...THIS_IS_SDPARTA-54.0 8962767592508872254 0 IN IP4 0.0.0.0\r\ns=-\r\nt=0 0\r\na=fingerprint:sha-256 5F:A7:C0:8D:70:58:CB:6B:05:2E:DA:46:C8:A6:73:85:AD:05:A8:2E:33:32:BB:C9:2B:19:47:04:AD:1C:59:8B\r\na=group:BUNDLE audio video\r\na=ice-options:trickle\r\na=msid-semantic:WMS *\r\nm=audio 9 RTP/SAVPF 111 126\r\nc=IN IP4 0.0.0.0\r\na=sendonly\r\na=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=ice-pwd:9e73b95c3a30ed0fa1facffa0b13b986\r\na=ice-ufrag:0f1c9cb7\r\na=mid:audio\r\na=msid:{6f67dc13-8095-4440-9484-8e1a17487d5d} {26413451-77e8-4ffa-9142-b7232758dde9}\r\na=rtcp-mux\r\na=rtpmap:111 opus/48000/2\r\na=rtpmap:126 telephone-event/8000/1\r\na=setup:active\r\na=ssrc:3895792118 cname:{71713aa8-c6e2-4b45-8833-2a3e71fc118b}\r\nm=video 9 RTP/SAVPF 100\r\nc=IN IP4 0.0.0.0\r\na=sendonly\r\na=extmap:2 urn:ietf:params:rtp-hdrext:toffset\r\na=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=ice-pwd:9e73b95c3a30ed0fa1facffa0b13b986\r\na=ice-ufrag:0f1c9cb7\r\na=mid:video\r\na=msid:{6f67dc13-8095-4440-9484-8e1a17487d5d} {e88999fe-bfdd-4962-976f-ab2108dc780e}\r\na=rtcp-fb:100 nack\r\na=rtcp-fb:100 nack pli\r\na=rtcp-fb:100 ccm fir\r\na=rtcp-fb:100 goog-remb\r\na=rtcp-mux\r\na=rtpmap:100 VP8/90000\r\na=setup:active\r\na=ssrc:2486702335 cname:{71713aa8-c6e2-4b45-8833-2a3e71fc118b}\r\n',
+     remotePeerSdpConstraints: false,
+     renegotiatingPeer: false,
+     connectionDescription: 
+      { remoteUserId: 'raj',
+        message: 
+         { newParticipationRequest: true,
+           isOneWay: false,
+           isDataOnly: false,
+           localPeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true },
+           remotePeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true } },
+        sender: 'zwcim91mpl56yh64l22',
+        password: false },
+     dontGetRemoteStream: false,
+     extra: {},
+     streamsToShare: { '{6f67dc13-8095-4440-9484-8e1a17487d5d}': { isAudio: false, isVideo: true, isScreen: false } },
+     isFirefoxOffered: true },
+  sender: 'zwcim91mpl56yh64l22' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:0 1 UDP 2122121471 192.168.7.73 34781 typ host',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'zwcim91mpl56yh64l22' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:10 1 UDP 2122252543 192.168.0.73 45506 typ host',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'zwcim91mpl56yh64l22' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:20 1 UDP 2122187007 192.168.1.73 46214 typ host',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'zwcim91mpl56yh64l22' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:30 1 TCP 2105377023 192.168.7.73 62601 typ host tcptype passive',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'zwcim91mpl56yh64l22' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:30 1 TCP 2105393407 192.168.7.73 9 typ host tcptype active',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'zwcim91mpl56yh64l22' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:37 1 TCP 2105508095 192.168.0.73 52156 typ host tcptype passive',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'zwcim91mpl56yh64l22' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:37 1 TCP 2105524479 192.168.0.73 9 typ host tcptype active',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'zwcim91mpl56yh64l22' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:44 1 TCP 2105442559 192.168.1.73 53825 typ host tcptype passive',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'zwcim91mpl56yh64l22' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:44 1 TCP 2105458943 192.168.1.73 9 typ host tcptype active',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'zwcim91mpl56yh64l22' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:2 1 UDP 1685921535 103.15.66.210 34781 typ srflx raddr 192.168.7.73 rport 34781',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'zwcim91mpl56yh64l22' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:31 1 TCP 1669160959 103.15.66.210 62601 typ srflx raddr 192.168.7.73 rport 62601 tcptype passive',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'zwcim91mpl56yh64l22' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:7 1 UDP 92085247 64.251.31.85 55215 typ relay raddr 64.251.31.85 rport 55215',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'zwcim91mpl56yh64l22' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:9 1 UDP 92084479 64.251.31.85 40175 typ relay raddr 64.251.31.85 rport 40175',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'zwcim91mpl56yh64l22' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:5 1 UDP 92085503 64.251.31.85 61540 typ relay raddr 64.251.31.85 rport 61540',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'zwcim91mpl56yh64l22' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:32 1 UDP 8200191 64.251.31.85 59217 typ relay raddr 64.251.31.85 rport 59217',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'zwcim91mpl56yh64l22' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:34 1 UDP 8200191 64.251.31.85 55598 typ relay raddr 64.251.31.85 rport 55598',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'zwcim91mpl56yh64l22' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:36 1 UDP 8200191 64.251.31.85 52765 typ relay raddr 64.251.31.85 rport 52765',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'zwcim91mpl56yh64l22' }
+7socketMessageEvent { remoteUserId: 'zwcim91mpl56yh64l22',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:1830510641 1 tcp 1518280447 192.168.100.184 51445 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: 'zwcim91mpl56yh64l22',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:4207765013 1 tcp 1518214911 192.168.200.2 44652 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: 'zwcim91mpl56yh64l22',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:2298884412 1 tcp 1518141951 fec0::ff:fe00:0 49952 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: 'zwcim91mpl56yh64l22',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:1830510641 2 tcp 1518280446 192.168.100.184 55391 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: 'zwcim91mpl56yh64l22',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:4207765013 2 tcp 1518214910 192.168.200.2 56713 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: 'zwcim91mpl56yh64l22',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:2298884412 2 tcp 1518141950 fec0::ff:fe00:0 60243 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: 'zwcim91mpl56yh64l22',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:1830510641 1 tcp 1518280447 192.168.100.184 51445 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: 'zwcim91mpl56yh64l22',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:4207765013 1 tcp 1518214911 192.168.200.2 44652 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: 'zwcim91mpl56yh64l22',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:2298884412 1 tcp 1518141951 fec0::ff:fe00:0 49952 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: 'zwcim91mpl56yh64l22',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:1830510641 2 tcp 1518280446 192.168.100.184 55391 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: 'zwcim91mpl56yh64l22',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:4207765013 2 tcp 1518214910 192.168.200.2 56713 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: 'zwcim91mpl56yh64l22',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:2298884412 2 tcp 1518141950 fec0::ff:fe00:0 60243 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: 'zwcim91mpl56yh64l22',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:1246941952 1 udp 1686052607 103.15.66.210 43081 typ srflx raddr 192.168.100.184 rport 56671 generation 0' } }
+7socketMessageEvent { remoteUserId: 'zwcim91mpl56yh64l22',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:1246941952 1 udp 1686052607 103.15.66.210 43081 typ srflx raddr 192.168.100.184 rport 56671 generation 0' } }
+2Connect with param : { 'EIO:3': '',
+  EIO: '3',
+  autoCloseEntireSession: 'false',
+  sessionid: 'raj',
+  socketCustomEvent: 'RTCMultiConnection-Custom-Message',
+  'transport:polling': '',
+  log: 'true',
+  't:LqiYB5k': '',
+  maxParticipantsAllowed: '1000',
+  userid: 'raj',
+  transport: 'polling',
+  msgEvent: 'video-conference-demo' }
+1list of users'raj'
+2Connect with param : { userid: 'wce5ry7y3b891w0xy52',
+  sessionid: 'raj',
+  msgEvent: 'video-conference-demo',
+  socketCustomEvent: 'RTCMultiConnection-Custom-Message',
+  autoCloseEntireSession: 'false',
+  maxParticipantsAllowed: '1000',
+  EIO: '3',
+  transport: 'polling',
+  t: 'LrV_W_T' }
+1list of users'wce5ry7y3b891w0xy52'
+3{}
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { newParticipationRequest: true,
+     isOneWay: false,
+     isDataOnly: false,
+     localPeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true },
+     remotePeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true } },
+  sender: 'wce5ry7y3b891w0xy52',
+  password: false }
+10socketMessageEvent reached
+6joinARoom with Param : { remoteUserId: 'raj',
+  message: 
+   { newParticipationRequest: true,
+     isOneWay: false,
+     isDataOnly: false,
+     localPeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true },
+     remotePeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true } },
+  sender: 'wce5ry7y3b891w0xy52',
+  password: false }
+7socketMessageEvent { remoteUserId: 'wce5ry7y3b891w0xy52',
+  sender: 'raj',
+  message: 
+   { type: 'offer',
+     sdp: 'v=0\r\no=- 5944507958866686118 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE audio video\r\na=msid-semantic: WMS\r\nm=audio 9 RTP/SAVPF 111 103 104 9 102 0 8 106 105 13 127 126\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:60ZIDULwL0ts6xGq\r\na=ice-pwd:Y0NAWchucB9qyaPhmYTf9IJA\r\na=fingerprint:sha-1 5F:D9:F4:10:01:51:B7:57:11:07:48:7D:F9:15:6F:D7:C9:3B:86:68\r\na=setup:actpass\r\na=mid:audio\r\na=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=recvonly\r\na=rtcp-mux\r\na=rtpmap:111 opus/48000/2\r\na=fmtp:111 minptime=10; useinbandfec=1\r\na=rtpmap:103 ISAC/16000\r\na=rtpmap:104 ISAC/32000\r\na=rtpmap:9 G722/8000\r\na=rtpmap:102 ILBC/8000\r\na=rtpmap:0 PCMU/8000\r\na=rtpmap:8 PCMA/8000\r\na=rtpmap:106 CN/32000\r\na=rtpmap:105 CN/16000\r\na=rtpmap:13 CN/8000\r\na=rtpmap:127 red/8000\r\na=rtpmap:126 telephone-event/8000\r\na=maxptime:60\r\nm=video 9 RTP/SAVPF 100 116 117 96\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:60ZIDULwL0ts6xGq\r\na=ice-pwd:Y0NAWchucB9qyaPhmYTf9IJA\r\na=fingerprint:sha-1 5F:D9:F4:10:01:51:B7:57:11:07:48:7D:F9:15:6F:D7:C9:3B:86:68\r\na=setup:actpass\r\na=mid:video\r\na=extmap:2 urn:ietf:params:rtp-hdrext:toffset\r\na=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:4 urn:3gpp:video-orientation\r\na=recvonly\r\na=rtcp-mux\r\na=rtpmap:100 VP8/90000\r\na=rtcp-fb:100 ccm fir\r\na=rtcp-fb:100 nack\r\na=rtcp-fb:100 nack pli\r\na=rtcp-fb:100 goog-remb\r\na=rtpmap:116 red/90000\r\na=rtpmap:117 ulpfec/90000\r\na=rtpmap:96 rtx/90000\r\na=fmtp:96 apt=100\r\n',
+     remotePeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true },
+     renegotiatingPeer: false,
+     connectionDescription: 
+      { remoteUserId: 'raj',
+        message: 
+         { newParticipationRequest: true,
+           isOneWay: false,
+           isDataOnly: false,
+           localPeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true },
+           remotePeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true } },
+        sender: 'wce5ry7y3b891w0xy52',
+        password: false },
+     dontGetRemoteStream: false,
+     extra: {},
+     streamsToShare: { isAudio: false, isVideo: true, isScreen: false },
+     isFirefoxOffered: true } }
+7socketMessageEvent { remoteUserId: 'wce5ry7y3b891w0xy52',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:597204161 1 udp 2122260223 192.168.100.184 55673 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: 'wce5ry7y3b891w0xy52',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:3025050341 1 udp 2122194687 192.168.200.2 48699 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: 'wce5ry7y3b891w0xy52',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:3347434956 1 udp 2122121727 fec0::ff:fe00:0 44882 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: 'wce5ry7y3b891w0xy52',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:597204161 2 udp 2122260222 192.168.100.184 53703 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: 'wce5ry7y3b891w0xy52',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:3025050341 2 udp 2122194686 192.168.200.2 52612 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: 'wce5ry7y3b891w0xy52',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:3347434956 2 udp 2122121726 fec0::ff:fe00:0 52092 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: 'wce5ry7y3b891w0xy52',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:597204161 1 udp 2122260223 192.168.100.184 52288 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: 'wce5ry7y3b891w0xy52',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:3025050341 1 udp 2122194687 192.168.200.2 49579 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: 'wce5ry7y3b891w0xy52',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:3347434956 1 udp 2122121727 fec0::ff:fe00:0 50752 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: 'wce5ry7y3b891w0xy52',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:597204161 2 udp 2122260222 192.168.100.184 54994 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: 'wce5ry7y3b891w0xy52',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:3025050341 2 udp 2122194686 192.168.200.2 54375 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: 'wce5ry7y3b891w0xy52',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:3347434956 2 udp 2122121726 fec0::ff:fe00:0 36678 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: 'wce5ry7y3b891w0xy52',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:1830510641 1 tcp 1518280447 192.168.100.184 46997 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: 'wce5ry7y3b891w0xy52',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:4207765013 1 tcp 1518214911 192.168.200.2 41149 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: 'wce5ry7y3b891w0xy52',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:2298884412 1 tcp 1518141951 fec0::ff:fe00:0 50659 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: 'wce5ry7y3b891w0xy52',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:1830510641 2 tcp 1518280446 192.168.100.184 43733 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: 'wce5ry7y3b891w0xy52',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:4207765013 2 tcp 1518214910 192.168.200.2 45530 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: 'wce5ry7y3b891w0xy52',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:2298884412 2 tcp 1518141950 fec0::ff:fe00:0 53666 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: 'wce5ry7y3b891w0xy52',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:1830510641 1 tcp 1518280447 192.168.100.184 56096 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: 'wce5ry7y3b891w0xy52',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:1246941952 1 udp 1686052607 103.15.66.210 56240 typ srflx raddr 192.168.100.184 rport 55673 generation 0' } }
+7socketMessageEvent { remoteUserId: 'wce5ry7y3b891w0xy52',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:1246941952 2 udp 1686052606 103.15.66.210 46756 typ srflx raddr 192.168.100.184 rport 53703 generation 0' } }
+7socketMessageEvent { remoteUserId: 'wce5ry7y3b891w0xy52',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:4207765013 1 tcp 1518214911 192.168.200.2 58278 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: 'wce5ry7y3b891w0xy52',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:1246941952 1 udp 1686052607 103.15.66.210 45596 typ srflx raddr 192.168.100.184 rport 52288 generation 0' } }
+7socketMessageEvent { remoteUserId: 'wce5ry7y3b891w0xy52',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:2298884412 1 tcp 1518141951 fec0::ff:fe00:0 48879 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: 'wce5ry7y3b891w0xy52',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:1246941952 2 udp 1686052606 103.15.66.210 44578 typ srflx raddr 192.168.100.184 rport 54994 generation 0' } }
+7socketMessageEvent { remoteUserId: 'wce5ry7y3b891w0xy52',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:1830510641 2 tcp 1518280446 192.168.100.184 52454 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: 'wce5ry7y3b891w0xy52',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:4207765013 2 tcp 1518214910 192.168.200.2 58265 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: 'wce5ry7y3b891w0xy52',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:2298884412 2 tcp 1518141950 fec0::ff:fe00:0 54134 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { type: 'answer',
+     sdp: 'v=0\r\no=mozilla...THIS_IS_SDPARTA-54.0 7113224579757657780 0 IN IP4 0.0.0.0\r\ns=-\r\nt=0 0\r\na=fingerprint:sha-256 AF:42:B7:C7:FB:B5:ED:D0:5F:A3:24:8C:7E:E7:DB:01:5F:DC:8C:0A:7F:0E:09:75:EB:0E:38:1F:9E:25:43:89\r\na=group:BUNDLE audio video\r\na=ice-options:trickle\r\na=msid-semantic:WMS *\r\nm=audio 9 RTP/SAVPF 111 126\r\nc=IN IP4 0.0.0.0\r\na=sendonly\r\na=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=ice-pwd:22ad8b5c9935b63496ae5060d2b95729\r\na=ice-ufrag:ba3683a5\r\na=mid:audio\r\na=msid:{35d67cb5-8c7d-45d0-9ec9-5e560c6c2166} {17af84ab-ec79-4972-a355-02a0e35ea9a6}\r\na=rtcp-mux\r\na=rtpmap:111 opus/48000/2\r\na=rtpmap:126 telephone-event/8000/1\r\na=setup:active\r\na=ssrc:880326160 cname:{498a69a2-1e74-4470-a929-43060f73d5ad}\r\nm=video 9 RTP/SAVPF 100\r\nc=IN IP4 0.0.0.0\r\na=sendonly\r\na=extmap:2 urn:ietf:params:rtp-hdrext:toffset\r\na=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=ice-pwd:22ad8b5c9935b63496ae5060d2b95729\r\na=ice-ufrag:ba3683a5\r\na=mid:video\r\na=msid:{35d67cb5-8c7d-45d0-9ec9-5e560c6c2166} {936bedab-30fb-4e24-8fc5-ba4738e6ab9a}\r\na=rtcp-fb:100 nack\r\na=rtcp-fb:100 nack pli\r\na=rtcp-fb:100 ccm fir\r\na=rtcp-fb:100 goog-remb\r\na=rtcp-mux\r\na=rtpmap:100 VP8/90000\r\na=setup:active\r\na=ssrc:3650560275 cname:{498a69a2-1e74-4470-a929-43060f73d5ad}\r\n',
+     remotePeerSdpConstraints: false,
+     renegotiatingPeer: false,
+     connectionDescription: 
+      { remoteUserId: 'raj',
+        message: 
+         { newParticipationRequest: true,
+           isOneWay: false,
+           isDataOnly: false,
+           localPeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true },
+           remotePeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true } },
+        sender: 'wce5ry7y3b891w0xy52',
+        password: false },
+     dontGetRemoteStream: false,
+     extra: {},
+     streamsToShare: { '{35d67cb5-8c7d-45d0-9ec9-5e560c6c2166}': { isAudio: false, isVideo: true, isScreen: false } },
+     isFirefoxOffered: true },
+  sender: 'wce5ry7y3b891w0xy52' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:0 1 UDP 2122121471 192.168.7.73 58450 typ host',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'wce5ry7y3b891w0xy52' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:10 1 UDP 2122252543 192.168.0.73 57480 typ host',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'wce5ry7y3b891w0xy52' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:20 1 UDP 2122187007 192.168.1.73 51798 typ host',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'wce5ry7y3b891w0xy52' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:30 1 TCP 2105377023 192.168.7.73 56444 typ host tcptype passive',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'wce5ry7y3b891w0xy52' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:30 1 TCP 2105393407 192.168.7.73 9 typ host tcptype active',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'wce5ry7y3b891w0xy52' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:37 1 TCP 2105508095 192.168.0.73 55594 typ host tcptype passive',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'wce5ry7y3b891w0xy52' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:37 1 TCP 2105524479 192.168.0.73 9 typ host tcptype active',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'wce5ry7y3b891w0xy52' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:44 1 TCP 2105442559 192.168.1.73 49389 typ host tcptype passive',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'wce5ry7y3b891w0xy52' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:44 1 TCP 2105458943 192.168.1.73 9 typ host tcptype active',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'wce5ry7y3b891w0xy52' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:1 1 UDP 1685921791 103.15.66.210 58450 typ srflx raddr 192.168.7.73 rport 58450',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'wce5ry7y3b891w0xy52' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:7 1 UDP 92085247 64.251.31.85 54218 typ relay raddr 64.251.31.85 rport 54218',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'wce5ry7y3b891w0xy52' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:9 1 UDP 92084479 64.251.31.85 53820 typ relay raddr 64.251.31.85 rport 53820',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'wce5ry7y3b891w0xy52' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:31 1 TCP 1669160959 103.15.66.210 56444 typ srflx raddr 192.168.7.73 rport 56444 tcptype passive',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'wce5ry7y3b891w0xy52' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:5 1 UDP 92085503 64.251.31.85 49447 typ relay raddr 64.251.31.85 rport 49447',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'wce5ry7y3b891w0xy52' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:32 1 UDP 8200191 64.251.31.85 64201 typ relay raddr 64.251.31.85 rport 64201',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'wce5ry7y3b891w0xy52' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:34 1 UDP 8200191 64.251.31.85 55466 typ relay raddr 64.251.31.85 rport 55466',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'wce5ry7y3b891w0xy52' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:36 1 UDP 8200191 64.251.31.85 60161 typ relay raddr 64.251.31.85 rport 60161',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'wce5ry7y3b891w0xy52' }
+2Connect with param : { 'EIO:3': '',
+  EIO: '3',
+  autoCloseEntireSession: 'false',
+  sessionid: 'raj',
+  socketCustomEvent: 'RTCMultiConnection-Custom-Message',
+  'transport:polling': '',
+  log: 'true',
+  't:LqiYB5k': '',
+  maxParticipantsAllowed: '1000',
+  userid: 'raj',
+  transport: 'polling',
+  msgEvent: 'video-conference-demo' }
+1list of users'raj'
+2Connect with param : { userid: 'q52hej1ntt8gpvgeka8',
+  sessionid: 'raj',
+  msgEvent: 'video-conference-demo',
+  socketCustomEvent: 'RTCMultiConnection-Custom-Message',
+  autoCloseEntireSession: 'false',
+  maxParticipantsAllowed: '1000',
+  EIO: '3',
+  transport: 'polling',
+  t: 'LrW0mQl' }
+1list of users'q52hej1ntt8gpvgeka8'
+3{}
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { newParticipationRequest: true,
+     isOneWay: false,
+     isDataOnly: false,
+     localPeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true },
+     remotePeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true } },
+  sender: 'q52hej1ntt8gpvgeka8',
+  password: false }
+10socketMessageEvent reached
+6joinARoom with Param : { remoteUserId: 'raj',
+  message: 
+   { newParticipationRequest: true,
+     isOneWay: false,
+     isDataOnly: false,
+     localPeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true },
+     remotePeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true } },
+  sender: 'q52hej1ntt8gpvgeka8',
+  password: false }
+7socketMessageEvent { remoteUserId: 'q52hej1ntt8gpvgeka8',
+  sender: 'raj',
+  message: 
+   { type: 'offer',
+     sdp: 'v=0\r\no=- 3859589302461518086 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE audio video\r\na=msid-semantic: WMS\r\nm=audio 9 RTP/SAVPF 111 103 104 9 102 0 8 106 105 13 127 126\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:4VDjEvCEQAHFS7nh\r\na=ice-pwd:pqbU0ecQ3yPAPs+zGeRHtQ9v\r\na=fingerprint:sha-1 0F:C2:0B:47:7F:40:82:A5:79:D5:03:31:62:7C:0A:32:63:C2:11:FF\r\na=setup:actpass\r\na=mid:audio\r\na=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=recvonly\r\na=rtcp-mux\r\na=rtpmap:111 opus/48000/2\r\na=fmtp:111 minptime=10; useinbandfec=1\r\na=rtpmap:103 ISAC/16000\r\na=rtpmap:104 ISAC/32000\r\na=rtpmap:9 G722/8000\r\na=rtpmap:102 ILBC/8000\r\na=rtpmap:0 PCMU/8000\r\na=rtpmap:8 PCMA/8000\r\na=rtpmap:106 CN/32000\r\na=rtpmap:105 CN/16000\r\na=rtpmap:13 CN/8000\r\na=rtpmap:127 red/8000\r\na=rtpmap:126 telephone-event/8000\r\na=maxptime:60\r\nm=video 9 RTP/SAVPF 100 116 117 96\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:4VDjEvCEQAHFS7nh\r\na=ice-pwd:pqbU0ecQ3yPAPs+zGeRHtQ9v\r\na=fingerprint:sha-1 0F:C2:0B:47:7F:40:82:A5:79:D5:03:31:62:7C:0A:32:63:C2:11:FF\r\na=setup:actpass\r\na=mid:video\r\na=extmap:2 urn:ietf:params:rtp-hdrext:toffset\r\na=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:4 urn:3gpp:video-orientation\r\na=recvonly\r\na=rtcp-mux\r\na=rtpmap:100 VP8/90000\r\na=rtcp-fb:100 ccm fir\r\na=rtcp-fb:100 nack\r\na=rtcp-fb:100 nack pli\r\na=rtcp-fb:100 goog-remb\r\na=rtpmap:116 red/90000\r\na=rtpmap:117 ulpfec/90000\r\na=rtpmap:96 rtx/90000\r\na=fmtp:96 apt=100\r\n',
+     remotePeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true },
+     renegotiatingPeer: false,
+     connectionDescription: 
+      { remoteUserId: 'raj',
+        message: 
+         { newParticipationRequest: true,
+           isOneWay: false,
+           isDataOnly: false,
+           localPeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true },
+           remotePeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true } },
+        sender: 'q52hej1ntt8gpvgeka8',
+        password: false },
+     dontGetRemoteStream: false,
+     extra: {},
+     streamsToShare: { isAudio: false, isVideo: true, isScreen: false },
+     isFirefoxOffered: true } }
+7socketMessageEvent { remoteUserId: 'q52hej1ntt8gpvgeka8',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:597204161 1 udp 2122260223 192.168.100.184 56001 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: 'q52hej1ntt8gpvgeka8',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:3025050341 1 udp 2122194687 192.168.200.2 49561 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: 'q52hej1ntt8gpvgeka8',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:3347434956 1 udp 2122121727 fec0::ff:fe00:0 60436 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: 'q52hej1ntt8gpvgeka8',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:597204161 2 udp 2122260222 192.168.100.184 40230 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: 'q52hej1ntt8gpvgeka8',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:3025050341 2 udp 2122194686 192.168.200.2 49650 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: 'q52hej1ntt8gpvgeka8',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:3347434956 2 udp 2122121726 fec0::ff:fe00:0 49633 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: 'q52hej1ntt8gpvgeka8',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:597204161 1 udp 2122260223 192.168.100.184 36254 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: 'q52hej1ntt8gpvgeka8',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:3025050341 1 udp 2122194687 192.168.200.2 38436 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: 'q52hej1ntt8gpvgeka8',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:3347434956 1 udp 2122121727 fec0::ff:fe00:0 49790 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: 'q52hej1ntt8gpvgeka8',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:597204161 2 udp 2122260222 192.168.100.184 54619 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: 'q52hej1ntt8gpvgeka8',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:3025050341 2 udp 2122194686 192.168.200.2 60802 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: 'q52hej1ntt8gpvgeka8',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:3347434956 2 udp 2122121726 fec0::ff:fe00:0 38306 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: 'q52hej1ntt8gpvgeka8',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:1830510641 1 tcp 1518280447 192.168.100.184 52590 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { type: 'answer',
+     sdp: 'v=0\r\no=mozilla...THIS_IS_SDPARTA-54.0 2376543399822428703 0 IN IP4 0.0.0.0\r\ns=-\r\nt=0 0\r\na=fingerprint:sha-256 B7:05:42:17:BB:9E:E2:44:F5:B1:CB:8C:C7:F5:D4:03:56:22:3A:28:12:65:A0:0A:CE:EE:B2:CF:85:A4:DC:F7\r\na=group:BUNDLE audio video\r\na=ice-options:trickle\r\na=msid-semantic:WMS *\r\nm=audio 9 RTP/SAVPF 111 126\r\nc=IN IP4 0.0.0.0\r\na=sendonly\r\na=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=ice-pwd:08e4c0b6a484219b3404e700b757c32a\r\na=ice-ufrag:c432f1d0\r\na=mid:audio\r\na=msid:{ea7dff6c-d8ea-4bdd-a4b9-37973ded86bd} {01d7eb0d-27a3-4291-8daa-4fdbb9880a38}\r\na=rtcp-mux\r\na=rtpmap:111 opus/48000/2\r\na=rtpmap:126 telephone-event/8000/1\r\na=setup:active\r\na=ssrc:1427360419 cname:{c5629e91-0512-4990-8cfd-ac7586eeeedb}\r\nm=video 9 RTP/SAVPF 100\r\nc=IN IP4 0.0.0.0\r\na=sendonly\r\na=extmap:2 urn:ietf:params:rtp-hdrext:toffset\r\na=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=ice-pwd:08e4c0b6a484219b3404e700b757c32a\r\na=ice-ufrag:c432f1d0\r\na=mid:video\r\na=msid:{ea7dff6c-d8ea-4bdd-a4b9-37973ded86bd} {0a67802c-f11f-46d6-8249-232ee50e19e6}\r\na=rtcp-fb:100 nack\r\na=rtcp-fb:100 nack pli\r\na=rtcp-fb:100 ccm fir\r\na=rtcp-fb:100 goog-remb\r\na=rtcp-mux\r\na=rtpmap:100 VP8/90000\r\na=setup:active\r\na=ssrc:3822680639 cname:{c5629e91-0512-4990-8cfd-ac7586eeeedb}\r\n',
+     remotePeerSdpConstraints: false,
+     renegotiatingPeer: false,
+     connectionDescription: 
+      { remoteUserId: 'raj',
+        message: 
+         { newParticipationRequest: true,
+           isOneWay: false,
+           isDataOnly: false,
+           localPeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true },
+           remotePeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true } },
+        sender: 'q52hej1ntt8gpvgeka8',
+        password: false },
+     dontGetRemoteStream: false,
+     extra: {},
+     streamsToShare: { '{ea7dff6c-d8ea-4bdd-a4b9-37973ded86bd}': { isAudio: false, isVideo: true, isScreen: false } },
+     isFirefoxOffered: true },
+  sender: 'q52hej1ntt8gpvgeka8' }
+7socketMessageEvent { remoteUserId: 'q52hej1ntt8gpvgeka8',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:4207765013 1 tcp 1518214911 192.168.200.2 42995 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: 'q52hej1ntt8gpvgeka8',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:2298884412 1 tcp 1518141951 fec0::ff:fe00:0 57262 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: 'q52hej1ntt8gpvgeka8',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:1830510641 2 tcp 1518280446 192.168.100.184 51295 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: 'q52hej1ntt8gpvgeka8',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:4207765013 2 tcp 1518214910 192.168.200.2 42714 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: 'q52hej1ntt8gpvgeka8',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:2298884412 2 tcp 1518141950 fec0::ff:fe00:0 45380 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: 'q52hej1ntt8gpvgeka8',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:1830510641 1 tcp 1518280447 192.168.100.184 50048 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: 'q52hej1ntt8gpvgeka8',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:1246941952 1 udp 1686052607 103.15.66.210 52986 typ srflx raddr 192.168.100.184 rport 36254 generation 0' } }
+7socketMessageEvent { remoteUserId: 'q52hej1ntt8gpvgeka8',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:1246941952 1 udp 1686052607 103.15.66.210 55104 typ srflx raddr 192.168.100.184 rport 56001 generation 0' } }
+7socketMessageEvent { remoteUserId: 'q52hej1ntt8gpvgeka8',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:1246941952 2 udp 1686052606 103.15.66.210 58233 typ srflx raddr 192.168.100.184 rport 40230 generation 0' } }
+7socketMessageEvent { remoteUserId: 'q52hej1ntt8gpvgeka8',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:1246941952 2 udp 1686052606 103.15.66.210 59221 typ srflx raddr 192.168.100.184 rport 54619 generation 0' } }
+7socketMessageEvent { remoteUserId: 'q52hej1ntt8gpvgeka8',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:4207765013 1 tcp 1518214911 192.168.200.2 46968 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: 'q52hej1ntt8gpvgeka8',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:2298884412 1 tcp 1518141951 fec0::ff:fe00:0 48954 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: 'q52hej1ntt8gpvgeka8',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:1830510641 2 tcp 1518280446 192.168.100.184 52588 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: 'q52hej1ntt8gpvgeka8',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:4207765013 2 tcp 1518214910 192.168.200.2 51124 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: 'q52hej1ntt8gpvgeka8',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:2298884412 2 tcp 1518141950 fec0::ff:fe00:0 38606 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:0 1 UDP 2122121471 192.168.7.73 58475 typ host',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'q52hej1ntt8gpvgeka8' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:10 1 UDP 2122252543 192.168.0.73 40767 typ host',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'q52hej1ntt8gpvgeka8' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:20 1 UDP 2122187007 192.168.1.73 60254 typ host',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'q52hej1ntt8gpvgeka8' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:30 1 TCP 2105377023 192.168.7.73 55166 typ host tcptype passive',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'q52hej1ntt8gpvgeka8' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:30 1 TCP 2105393407 192.168.7.73 9 typ host tcptype active',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'q52hej1ntt8gpvgeka8' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:37 1 TCP 2105508095 192.168.0.73 55317 typ host tcptype passive',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'q52hej1ntt8gpvgeka8' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:37 1 TCP 2105524479 192.168.0.73 9 typ host tcptype active',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'q52hej1ntt8gpvgeka8' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:44 1 TCP 2105442559 192.168.1.73 59973 typ host tcptype passive',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'q52hej1ntt8gpvgeka8' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:44 1 TCP 2105458943 192.168.1.73 9 typ host tcptype active',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'q52hej1ntt8gpvgeka8' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:2 1 UDP 1685921535 103.15.66.210 58475 typ srflx raddr 192.168.7.73 rport 58475',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'q52hej1ntt8gpvgeka8' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:5 1 UDP 92085503 64.251.31.85 58766 typ relay raddr 64.251.31.85 rport 58766',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'q52hej1ntt8gpvgeka8' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:7 1 UDP 92085247 64.251.31.85 64840 typ relay raddr 64.251.31.85 rport 64840',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'q52hej1ntt8gpvgeka8' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:31 1 TCP 1669160959 103.15.66.210 55166 typ srflx raddr 192.168.7.73 rport 55166 tcptype passive',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'q52hej1ntt8gpvgeka8' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:9 1 UDP 92084479 64.251.31.85 38665 typ relay raddr 64.251.31.85 rport 38665',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'q52hej1ntt8gpvgeka8' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:34 1 UDP 8200191 64.251.31.85 51893 typ relay raddr 64.251.31.85 rport 51893',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'q52hej1ntt8gpvgeka8' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:32 1 UDP 8200191 64.251.31.85 60063 typ relay raddr 64.251.31.85 rport 60063',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'q52hej1ntt8gpvgeka8' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:36 1 UDP 8200191 64.251.31.85 49925 typ relay raddr 64.251.31.85 rport 49925',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'q52hej1ntt8gpvgeka8' }
+2Connect with param : { 'EIO:3': '',
+  EIO: '3',
+  autoCloseEntireSession: 'false',
+  sessionid: 'raj',
+  socketCustomEvent: 'RTCMultiConnection-Custom-Message',
+  'transport:polling': '',
+  log: 'true',
+  't:LqiYB5k': '',
+  maxParticipantsAllowed: '1000',
+  userid: 'raj',
+  transport: 'polling',
+  msgEvent: 'video-conference-demo' }
+1list of users'raj'
+2Connect with param : { userid: 'gi095p119tcm51odd5mh',
+  sessionid: 'raj',
+  msgEvent: 'video-conference-demo',
+  socketCustomEvent: 'RTCMultiConnection-Custom-Message',
+  autoCloseEntireSession: 'false',
+  maxParticipantsAllowed: '1000',
+  EIO: '3',
+  transport: 'polling',
+  t: 'LrW3qeP' }
+1list of users'gi095p119tcm51odd5mh'
+3{}
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { newParticipationRequest: true,
+     isOneWay: false,
+     isDataOnly: false,
+     localPeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true },
+     remotePeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true } },
+  sender: 'gi095p119tcm51odd5mh',
+  password: false }
+10socketMessageEvent reached
+6joinARoom with Param : { remoteUserId: 'raj',
+  message: 
+   { newParticipationRequest: true,
+     isOneWay: false,
+     isDataOnly: false,
+     localPeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true },
+     remotePeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true } },
+  sender: 'gi095p119tcm51odd5mh',
+  password: false }
+7socketMessageEvent { remoteUserId: 'gi095p119tcm51odd5mh',
+  sender: 'raj',
+  message: 
+   { type: 'offer',
+     sdp: 'v=0\r\no=- 8022961200798182292 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE audio video\r\na=msid-semantic: WMS\r\nm=audio 9 RTP/SAVPF 111 103 104 9 102 0 8 106 105 13 127 126\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:WuQGfr9oMDO3W890\r\na=ice-pwd:o0Mp2ofFPcmFth2acL5kvm9Q\r\na=fingerprint:sha-1 A6:32:C2:6D:40:90:F5:F3:2C:B3:41:7C:CB:CB:20:94:F4:6F:48:C9\r\na=setup:actpass\r\na=mid:audio\r\na=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=recvonly\r\na=rtcp-mux\r\na=rtpmap:111 opus/48000/2\r\na=fmtp:111 minptime=10; useinbandfec=1\r\na=rtpmap:103 ISAC/16000\r\na=rtpmap:104 ISAC/32000\r\na=rtpmap:9 G722/8000\r\na=rtpmap:102 ILBC/8000\r\na=rtpmap:0 PCMU/8000\r\na=rtpmap:8 PCMA/8000\r\na=rtpmap:106 CN/32000\r\na=rtpmap:105 CN/16000\r\na=rtpmap:13 CN/8000\r\na=rtpmap:127 red/8000\r\na=rtpmap:126 telephone-event/8000\r\na=maxptime:60\r\nm=video 9 RTP/SAVPF 100 116 117 96\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:WuQGfr9oMDO3W890\r\na=ice-pwd:o0Mp2ofFPcmFth2acL5kvm9Q\r\na=fingerprint:sha-1 A6:32:C2:6D:40:90:F5:F3:2C:B3:41:7C:CB:CB:20:94:F4:6F:48:C9\r\na=setup:actpass\r\na=mid:video\r\na=extmap:2 urn:ietf:params:rtp-hdrext:toffset\r\na=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:4 urn:3gpp:video-orientation\r\na=recvonly\r\na=rtcp-mux\r\na=rtpmap:100 VP8/90000\r\na=rtcp-fb:100 ccm fir\r\na=rtcp-fb:100 nack\r\na=rtcp-fb:100 nack pli\r\na=rtcp-fb:100 goog-remb\r\na=rtpmap:116 red/90000\r\na=rtpmap:117 ulpfec/90000\r\na=rtpmap:96 rtx/90000\r\na=fmtp:96 apt=100\r\n',
+     remotePeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true },
+     renegotiatingPeer: false,
+     connectionDescription: 
+      { remoteUserId: 'raj',
+        message: 
+         { newParticipationRequest: true,
+           isOneWay: false,
+           isDataOnly: false,
+           localPeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true },
+           remotePeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true } },
+        sender: 'gi095p119tcm51odd5mh',
+        password: false },
+     dontGetRemoteStream: false,
+     extra: {},
+     streamsToShare: { isAudio: false, isVideo: true, isScreen: false },
+     isFirefoxOffered: true } }
+7socketMessageEvent { remoteUserId: 'gi095p119tcm51odd5mh',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:597204161 1 udp 2122260223 192.168.100.184 54530 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: 'gi095p119tcm51odd5mh',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:3025050341 1 udp 2122194687 192.168.200.2 50463 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: 'gi095p119tcm51odd5mh',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:3347434956 1 udp 2122121727 fec0::ff:fe00:0 47134 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: 'gi095p119tcm51odd5mh',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:597204161 2 udp 2122260222 192.168.100.184 36164 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: 'gi095p119tcm51odd5mh',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:3025050341 2 udp 2122194686 192.168.200.2 49079 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: 'gi095p119tcm51odd5mh',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:3347434956 2 udp 2122121726 fec0::ff:fe00:0 48047 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: 'gi095p119tcm51odd5mh',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:597204161 1 udp 2122260223 192.168.100.184 51770 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: 'gi095p119tcm51odd5mh',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:3025050341 1 udp 2122194687 192.168.200.2 41669 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: 'gi095p119tcm51odd5mh',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:3347434956 1 udp 2122121727 fec0::ff:fe00:0 46729 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: 'gi095p119tcm51odd5mh',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:597204161 2 udp 2122260222 192.168.100.184 33752 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: 'gi095p119tcm51odd5mh',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:3025050341 2 udp 2122194686 192.168.200.2 56720 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: 'gi095p119tcm51odd5mh',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:3347434956 2 udp 2122121726 fec0::ff:fe00:0 55363 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { type: 'answer',
+     sdp: 'v=0\r\no=mozilla...THIS_IS_SDPARTA-54.0 3422704942610408129 0 IN IP4 0.0.0.0\r\ns=-\r\nt=0 0\r\na=fingerprint:sha-256 05:2C:13:B8:AE:7E:AD:09:09:F6:D2:32:E6:81:1A:06:9E:FB:E7:36:0E:F7:6A:5D:3D:E7:AC:ED:59:0E:B8:5B\r\na=group:BUNDLE audio video\r\na=ice-options:trickle\r\na=msid-semantic:WMS *\r\nm=audio 9 RTP/SAVPF 111 126\r\nc=IN IP4 0.0.0.0\r\na=sendonly\r\na=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=ice-pwd:7553f1c90f44939a3fa079fad643d7d1\r\na=ice-ufrag:912211fc\r\na=mid:audio\r\na=msid:{749e88aa-dd14-4f36-852f-411547e3fdf8} {95d945f8-83c0-499a-9c90-e0c053202cf1}\r\na=rtcp-mux\r\na=rtpmap:111 opus/48000/2\r\na=rtpmap:126 telephone-event/8000/1\r\na=setup:active\r\na=ssrc:3679161684 cname:{41b50270-50af-46d4-a13c-3c556dff9d3f}\r\nm=video 9 RTP/SAVPF 100\r\nc=IN IP4 0.0.0.0\r\na=sendonly\r\na=extmap:2 urn:ietf:params:rtp-hdrext:toffset\r\na=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=ice-pwd:7553f1c90f44939a3fa079fad643d7d1\r\na=ice-ufrag:912211fc\r\na=mid:video\r\na=msid:{749e88aa-dd14-4f36-852f-411547e3fdf8} {4fa8433d-59b0-4bef-b59e-7040fe045047}\r\na=rtcp-fb:100 nack\r\na=rtcp-fb:100 nack pli\r\na=rtcp-fb:100 ccm fir\r\na=rtcp-fb:100 goog-remb\r\na=rtcp-mux\r\na=rtpmap:100 VP8/90000\r\na=setup:active\r\na=ssrc:1754241622 cname:{41b50270-50af-46d4-a13c-3c556dff9d3f}\r\n',
+     remotePeerSdpConstraints: false,
+     renegotiatingPeer: false,
+     connectionDescription: 
+      { remoteUserId: 'raj',
+        message: 
+         { newParticipationRequest: true,
+           isOneWay: false,
+           isDataOnly: false,
+           localPeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true },
+           remotePeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true } },
+        sender: 'gi095p119tcm51odd5mh',
+        password: false },
+     dontGetRemoteStream: false,
+     extra: {},
+     streamsToShare: { '{749e88aa-dd14-4f36-852f-411547e3fdf8}': { isAudio: false, isVideo: true, isScreen: false } },
+     isFirefoxOffered: true },
+  sender: 'gi095p119tcm51odd5mh' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:0 1 UDP 2122121471 192.168.7.73 59790 typ host',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'gi095p119tcm51odd5mh' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:10 1 UDP 2122252543 192.168.0.73 53257 typ host',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'gi095p119tcm51odd5mh' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:20 1 UDP 2122187007 192.168.1.73 55241 typ host',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'gi095p119tcm51odd5mh' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:30 1 TCP 2105377023 192.168.7.73 56607 typ host tcptype passive',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'gi095p119tcm51odd5mh' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:30 1 TCP 2105393407 192.168.7.73 9 typ host tcptype active',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'gi095p119tcm51odd5mh' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:37 1 TCP 2105508095 192.168.0.73 61917 typ host tcptype passive',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'gi095p119tcm51odd5mh' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:37 1 TCP 2105524479 192.168.0.73 9 typ host tcptype active',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'gi095p119tcm51odd5mh' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:44 1 TCP 2105442559 192.168.1.73 51178 typ host tcptype passive',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'gi095p119tcm51odd5mh' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:44 1 TCP 2105458943 192.168.1.73 9 typ host tcptype active',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'gi095p119tcm51odd5mh' }
+7socketMessageEvent { remoteUserId: 'gi095p119tcm51odd5mh',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:1830510641 1 tcp 1518280447 192.168.100.184 55059 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: 'gi095p119tcm51odd5mh',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:4207765013 1 tcp 1518214911 192.168.200.2 48637 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: 'gi095p119tcm51odd5mh',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:2298884412 1 tcp 1518141951 fec0::ff:fe00:0 38028 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: 'gi095p119tcm51odd5mh',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:1830510641 2 tcp 1518280446 192.168.100.184 47679 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: 'gi095p119tcm51odd5mh',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:4207765013 2 tcp 1518214910 192.168.200.2 34173 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: 'gi095p119tcm51odd5mh',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:2298884412 2 tcp 1518141950 fec0::ff:fe00:0 55287 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: 'gi095p119tcm51odd5mh',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:1246941952 1 udp 1686052607 103.15.66.210 60313 typ srflx raddr 192.168.100.184 rport 54530 generation 0' } }
+7socketMessageEvent { remoteUserId: 'gi095p119tcm51odd5mh',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:1830510641 1 tcp 1518280447 192.168.100.184 55059 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: 'gi095p119tcm51odd5mh',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:4207765013 1 tcp 1518214911 192.168.200.2 48637 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: 'gi095p119tcm51odd5mh',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:2298884412 1 tcp 1518141951 fec0::ff:fe00:0 38028 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: 'gi095p119tcm51odd5mh',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:1830510641 2 tcp 1518280446 192.168.100.184 47679 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: 'gi095p119tcm51odd5mh',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:4207765013 2 tcp 1518214910 192.168.200.2 34173 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: 'gi095p119tcm51odd5mh',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:2298884412 2 tcp 1518141950 fec0::ff:fe00:0 55287 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: 'gi095p119tcm51odd5mh',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:1246941952 1 udp 1686052607 103.15.66.210 60313 typ srflx raddr 192.168.100.184 rport 54530 generation 0' } }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:2 1 UDP 1685921535 103.15.66.210 59790 typ srflx raddr 192.168.7.73 rport 59790',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'gi095p119tcm51odd5mh' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:5 1 UDP 92085503 64.251.31.85 50053 typ relay raddr 64.251.31.85 rport 50053',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'gi095p119tcm51odd5mh' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:7 1 UDP 92085247 64.251.31.85 60859 typ relay raddr 64.251.31.85 rport 60859',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'gi095p119tcm51odd5mh' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:31 1 TCP 1669160959 103.15.66.210 56607 typ srflx raddr 192.168.7.73 rport 56607 tcptype passive',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'gi095p119tcm51odd5mh' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:9 1 UDP 92084479 64.251.31.85 49975 typ relay raddr 64.251.31.85 rport 49975',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'gi095p119tcm51odd5mh' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:32 1 UDP 8200191 64.251.31.85 50735 typ relay raddr 64.251.31.85 rport 50735',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'gi095p119tcm51odd5mh' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:34 1 UDP 8200191 64.251.31.85 54985 typ relay raddr 64.251.31.85 rport 54985',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'gi095p119tcm51odd5mh' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:36 1 UDP 8200191 64.251.31.85 47823 typ relay raddr 64.251.31.85 rport 47823',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: 'gi095p119tcm51odd5mh' }
+2Connect with param : { 'EIO:3': '',
+  EIO: '3',
+  autoCloseEntireSession: 'false',
+  sessionid: 'raj',
+  socketCustomEvent: 'RTCMultiConnection-Custom-Message',
+  'transport:polling': '',
+  log: 'true',
+  't:LqiYB5k': '',
+  maxParticipantsAllowed: '1000',
+  userid: 'raj',
+  transport: 'polling',
+  msgEvent: 'video-conference-demo' }
+1list of users'raj'
+2Connect with param : { userid: '1o6fuk71wj0zo0mwhaxi',
+  sessionid: 'raj',
+  msgEvent: 'video-conference-demo',
+  socketCustomEvent: 'RTCMultiConnection-Custom-Message',
+  autoCloseEntireSession: 'false',
+  maxParticipantsAllowed: '1000',
+  EIO: '3',
+  transport: 'polling',
+  t: 'LrW47DK' }
+1list of users'1o6fuk71wj0zo0mwhaxi'
+3{}
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { newParticipationRequest: true,
+     isOneWay: false,
+     isDataOnly: false,
+     localPeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true },
+     remotePeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true } },
+  sender: '1o6fuk71wj0zo0mwhaxi',
+  password: false }
+10socketMessageEvent reached
+6joinARoom with Param : { remoteUserId: 'raj',
+  message: 
+   { newParticipationRequest: true,
+     isOneWay: false,
+     isDataOnly: false,
+     localPeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true },
+     remotePeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true } },
+  sender: '1o6fuk71wj0zo0mwhaxi',
+  password: false }
+7socketMessageEvent { remoteUserId: '1o6fuk71wj0zo0mwhaxi',
+  sender: 'raj',
+  message: 
+   { type: 'offer',
+     sdp: 'v=0\r\no=- 969774548745125881 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE audio video\r\na=msid-semantic: WMS\r\nm=audio 9 RTP/SAVPF 111 103 104 9 102 0 8 106 105 13 127 126\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:oPA9q1zjelDrpwhk\r\na=ice-pwd:xppl1UJ3pLX1nVtBLIKL/L5v\r\na=fingerprint:sha-1 1F:B9:85:E2:DA:7C:8E:3E:4A:C7:C8:2B:68:1E:13:97:44:E6:C1:BE\r\na=setup:actpass\r\na=mid:audio\r\na=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=recvonly\r\na=rtcp-mux\r\na=rtpmap:111 opus/48000/2\r\na=fmtp:111 minptime=10; useinbandfec=1\r\na=rtpmap:103 ISAC/16000\r\na=rtpmap:104 ISAC/32000\r\na=rtpmap:9 G722/8000\r\na=rtpmap:102 ILBC/8000\r\na=rtpmap:0 PCMU/8000\r\na=rtpmap:8 PCMA/8000\r\na=rtpmap:106 CN/32000\r\na=rtpmap:105 CN/16000\r\na=rtpmap:13 CN/8000\r\na=rtpmap:127 red/8000\r\na=rtpmap:126 telephone-event/8000\r\na=maxptime:60\r\nm=video 9 RTP/SAVPF 100 116 117 96\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:oPA9q1zjelDrpwhk\r\na=ice-pwd:xppl1UJ3pLX1nVtBLIKL/L5v\r\na=fingerprint:sha-1 1F:B9:85:E2:DA:7C:8E:3E:4A:C7:C8:2B:68:1E:13:97:44:E6:C1:BE\r\na=setup:actpass\r\na=mid:video\r\na=extmap:2 urn:ietf:params:rtp-hdrext:toffset\r\na=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:4 urn:3gpp:video-orientation\r\na=recvonly\r\na=rtcp-mux\r\na=rtpmap:100 VP8/90000\r\na=rtcp-fb:100 ccm fir\r\na=rtcp-fb:100 nack\r\na=rtcp-fb:100 nack pli\r\na=rtcp-fb:100 goog-remb\r\na=rtpmap:116 red/90000\r\na=rtpmap:117 ulpfec/90000\r\na=rtpmap:96 rtx/90000\r\na=fmtp:96 apt=100\r\n',
+     remotePeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true },
+     renegotiatingPeer: false,
+     connectionDescription: 
+      { remoteUserId: 'raj',
+        message: 
+         { newParticipationRequest: true,
+           isOneWay: false,
+           isDataOnly: false,
+           localPeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true },
+           remotePeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true } },
+        sender: '1o6fuk71wj0zo0mwhaxi',
+        password: false },
+     dontGetRemoteStream: false,
+     extra: {},
+     streamsToShare: { isAudio: false, isVideo: true, isScreen: false },
+     isFirefoxOffered: true } }
+7socketMessageEvent { remoteUserId: '1o6fuk71wj0zo0mwhaxi',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:597204161 1 udp 2122260223 192.168.100.184 49971 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: '1o6fuk71wj0zo0mwhaxi',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:3025050341 1 udp 2122194687 192.168.200.2 57230 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: '1o6fuk71wj0zo0mwhaxi',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:3347434956 1 udp 2122121727 fec0::ff:fe00:0 41797 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: '1o6fuk71wj0zo0mwhaxi',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:597204161 2 udp 2122260222 192.168.100.184 43110 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: '1o6fuk71wj0zo0mwhaxi',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:3025050341 2 udp 2122194686 192.168.200.2 47703 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: '1o6fuk71wj0zo0mwhaxi',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:3347434956 2 udp 2122121726 fec0::ff:fe00:0 54664 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: '1o6fuk71wj0zo0mwhaxi',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:597204161 1 udp 2122260223 192.168.100.184 39552 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: '1o6fuk71wj0zo0mwhaxi',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:3025050341 1 udp 2122194687 192.168.200.2 36693 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: '1o6fuk71wj0zo0mwhaxi',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:3347434956 1 udp 2122121727 fec0::ff:fe00:0 53751 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: '1o6fuk71wj0zo0mwhaxi',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:597204161 2 udp 2122260222 192.168.100.184 46800 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: '1o6fuk71wj0zo0mwhaxi',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:3025050341 2 udp 2122194686 192.168.200.2 51215 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: '1o6fuk71wj0zo0mwhaxi',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:3347434956 2 udp 2122121726 fec0::ff:fe00:0 48896 typ host generation 0' } }
+7socketMessageEvent { remoteUserId: '1o6fuk71wj0zo0mwhaxi',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:1246941952 1 udp 1686052607 103.15.66.210 54644 typ srflx raddr 192.168.100.184 rport 49971 generation 0' } }
+7socketMessageEvent { remoteUserId: '1o6fuk71wj0zo0mwhaxi',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:1246941952 2 udp 1686052606 103.15.66.210 46715 typ srflx raddr 192.168.100.184 rport 43110 generation 0' } }
+7socketMessageEvent { remoteUserId: '1o6fuk71wj0zo0mwhaxi',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:1246941952 1 udp 1686052607 103.15.66.210 60430 typ srflx raddr 192.168.100.184 rport 39552 generation 0' } }
+7socketMessageEvent { remoteUserId: '1o6fuk71wj0zo0mwhaxi',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:1830510641 1 tcp 1518280447 192.168.100.184 34149 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: '1o6fuk71wj0zo0mwhaxi',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:4207765013 1 tcp 1518214911 192.168.200.2 34274 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: '1o6fuk71wj0zo0mwhaxi',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:2298884412 1 tcp 1518141951 fec0::ff:fe00:0 59489 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: '1o6fuk71wj0zo0mwhaxi',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:1246941952 2 udp 1686052606 103.15.66.210 38174 typ srflx raddr 192.168.100.184 rport 46800 generation 0' } }
+7socketMessageEvent { remoteUserId: '1o6fuk71wj0zo0mwhaxi',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:1830510641 2 tcp 1518280446 192.168.100.184 36191 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: '1o6fuk71wj0zo0mwhaxi',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:4207765013 2 tcp 1518214910 192.168.200.2 40797 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: '1o6fuk71wj0zo0mwhaxi',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 0,
+     id: 'audio',
+     candidate: 'candidate:2298884412 2 tcp 1518141950 fec0::ff:fe00:0 53303 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: '1o6fuk71wj0zo0mwhaxi',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:1830510641 1 tcp 1518280447 192.168.100.184 50200 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: '1o6fuk71wj0zo0mwhaxi',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:4207765013 1 tcp 1518214911 192.168.200.2 39541 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: '1o6fuk71wj0zo0mwhaxi',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:2298884412 1 tcp 1518141951 fec0::ff:fe00:0 52036 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: '1o6fuk71wj0zo0mwhaxi',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:1830510641 2 tcp 1518280446 192.168.100.184 58149 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { type: 'answer',
+     sdp: 'v=0\r\no=mozilla...THIS_IS_SDPARTA-54.0 2973493377522359008 0 IN IP4 0.0.0.0\r\ns=-\r\nt=0 0\r\na=fingerprint:sha-256 DC:7D:58:0B:EB:52:E1:49:E7:6A:2A:BD:AD:27:AB:FF:82:24:07:DF:D5:41:CC:D6:EE:71:D4:45:09:0B:D6:AD\r\na=group:BUNDLE audio video\r\na=ice-options:trickle\r\na=msid-semantic:WMS *\r\nm=audio 9 RTP/SAVPF 111 126\r\nc=IN IP4 0.0.0.0\r\na=sendonly\r\na=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=ice-pwd:2712dd9fded28a813503b07aa8beef6b\r\na=ice-ufrag:decaefbf\r\na=mid:audio\r\na=msid:{122edb96-4847-4f2b-a89f-a09fb620ccd6} {6acf579a-990d-4be7-8674-80ba09318c93}\r\na=rtcp-mux\r\na=rtpmap:111 opus/48000/2\r\na=rtpmap:126 telephone-event/8000/1\r\na=setup:active\r\na=ssrc:1429946491 cname:{8c85d3bb-d788-4dfa-baf2-64dcfad42897}\r\nm=video 9 RTP/SAVPF 100\r\nc=IN IP4 0.0.0.0\r\na=sendonly\r\na=extmap:2 urn:ietf:params:rtp-hdrext:toffset\r\na=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=ice-pwd:2712dd9fded28a813503b07aa8beef6b\r\na=ice-ufrag:decaefbf\r\na=mid:video\r\na=msid:{122edb96-4847-4f2b-a89f-a09fb620ccd6} {01a9a79c-9030-4587-ba7a-8b480c0076fc}\r\na=rtcp-fb:100 nack\r\na=rtcp-fb:100 nack pli\r\na=rtcp-fb:100 ccm fir\r\na=rtcp-fb:100 goog-remb\r\na=rtcp-mux\r\na=rtpmap:100 VP8/90000\r\na=setup:active\r\na=ssrc:3243109164 cname:{8c85d3bb-d788-4dfa-baf2-64dcfad42897}\r\n',
+     remotePeerSdpConstraints: false,
+     renegotiatingPeer: false,
+     connectionDescription: 
+      { remoteUserId: 'raj',
+        message: 
+         { newParticipationRequest: true,
+           isOneWay: false,
+           isDataOnly: false,
+           localPeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true },
+           remotePeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true } },
+        sender: '1o6fuk71wj0zo0mwhaxi',
+        password: false },
+     dontGetRemoteStream: false,
+     extra: {},
+     streamsToShare: { '{122edb96-4847-4f2b-a89f-a09fb620ccd6}': { isAudio: false, isVideo: true, isScreen: false } },
+     isFirefoxOffered: true },
+  sender: '1o6fuk71wj0zo0mwhaxi' }
+7socketMessageEvent { remoteUserId: '1o6fuk71wj0zo0mwhaxi',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:4207765013 2 tcp 1518214910 192.168.200.2 37691 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: '1o6fuk71wj0zo0mwhaxi',
+  sender: 'raj',
+  message: 
+   { type: 'candidate',
+     label: 1,
+     id: 'video',
+     candidate: 'candidate:2298884412 2 tcp 1518141950 fec0::ff:fe00:0 54702 typ host tcptype passive generation 0' } }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:0 1 UDP 2122121471 192.168.7.73 35019 typ host',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: '1o6fuk71wj0zo0mwhaxi' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:10 1 UDP 2122252543 192.168.0.73 40903 typ host',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: '1o6fuk71wj0zo0mwhaxi' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:20 1 UDP 2122187007 192.168.1.73 54780 typ host',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: '1o6fuk71wj0zo0mwhaxi' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:30 1 TCP 2105377023 192.168.7.73 57119 typ host tcptype passive',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: '1o6fuk71wj0zo0mwhaxi' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:30 1 TCP 2105393407 192.168.7.73 9 typ host tcptype active',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: '1o6fuk71wj0zo0mwhaxi' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:37 1 TCP 2105508095 192.168.0.73 58142 typ host tcptype passive',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: '1o6fuk71wj0zo0mwhaxi' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:37 1 TCP 2105524479 192.168.0.73 9 typ host tcptype active',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: '1o6fuk71wj0zo0mwhaxi' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:44 1 TCP 2105442559 192.168.1.73 60316 typ host tcptype passive',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: '1o6fuk71wj0zo0mwhaxi' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:44 1 TCP 2105458943 192.168.1.73 9 typ host tcptype active',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: '1o6fuk71wj0zo0mwhaxi' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:1 1 UDP 1685921791 103.15.66.210 35019 typ srflx raddr 192.168.7.73 rport 35019',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: '1o6fuk71wj0zo0mwhaxi' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:5 1 UDP 92085503 64.251.31.85 51574 typ relay raddr 64.251.31.85 rport 51574',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: '1o6fuk71wj0zo0mwhaxi' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:31 1 TCP 1669160959 103.15.66.210 57119 typ srflx raddr 192.168.7.73 rport 57119 tcptype passive',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: '1o6fuk71wj0zo0mwhaxi' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:7 1 UDP 92085247 64.251.31.85 56112 typ relay raddr 64.251.31.85 rport 56112',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: '1o6fuk71wj0zo0mwhaxi' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:9 1 UDP 92084479 64.251.31.85 60553 typ relay raddr 64.251.31.85 rport 60553',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: '1o6fuk71wj0zo0mwhaxi' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:32 1 UDP 8200191 64.251.31.85 62526 typ relay raddr 64.251.31.85 rport 62526',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: '1o6fuk71wj0zo0mwhaxi' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:34 1 UDP 8200191 64.251.31.85 49961 typ relay raddr 64.251.31.85 rport 49961',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: '1o6fuk71wj0zo0mwhaxi' }
+7socketMessageEvent { remoteUserId: 'raj',
+  message: 
+   { candidate: 'candidate:36 1 UDP 8200191 64.251.31.85 33803 typ relay raddr 64.251.31.85 rport 33803',
+     sdpMid: 'audio',
+     sdpMLineIndex: 0 },
+  sender: '1o6fuk71wj0zo0mwhaxi' }

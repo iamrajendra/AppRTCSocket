@@ -1,0 +1,956 @@
+------------------------------
+socket.io is listening at:
+[31m	https://localhost:31506/[0m 
+
+
+Your web-browser (HTML file) MUST set this line:
+[31mconnection.socketURL = "https://localhost:31506/";[0m 
+------------------------------
+Need help? http://bit.ly/2ff7QGk
+connect with Param : { userid: 'navi',
+  sessionid: 'navi',
+  msgEvent: 'video-conference-demo',
+  socketCustomEvent: 'RTCMultiConnection-Custom-Message',
+  autoCloseEntireSession: 'false',
+  maxParticipantsAllowed: '1000',
+  EIO: '3',
+  transport: 'polling',
+  t: 'Lr0GzU1' }
+number of list of users'navi'
+connect with Param : { userid: 'qrmb411uys87h143fb6r',
+  sessionid: 'https19216877331506demosVideo-Conferencinghtmlroomid',
+  msgEvent: 'video-conference-demo',
+  socketCustomEvent: 'RTCMultiConnection-Custom-Message',
+  autoCloseEntireSession: 'false',
+  maxParticipantsAllowed: '1000',
+  EIO: '3',
+  transport: 'polling',
+  t: 'Lr0HNKd' }
+number of list of users'qrmb411uys87h143fb6r'
+{}
+socketMessageEvent { remoteUserId: 'navi',
+  message: 
+   { newParticipationRequest: true,
+     isOneWay: false,
+     isDataOnly: false,
+     localPeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true },
+     remotePeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true } },
+  sender: 'qrmb411uys87h143fb6r',
+  password: false }
+socketMessageEvent reached
+joinARoom with Param : { remoteUserId: 'navi',
+  message: 
+   { newParticipationRequest: true,
+     isOneWay: false,
+     isDataOnly: false,
+     localPeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true },
+     remotePeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true } },
+  sender: 'qrmb411uys87h143fb6r',
+  password: false }
+socketMessageEvent { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { enableMedia: true,
+     userPreferences: 
+      { extra: {},
+        localPeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true },
+        remotePeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true },
+        isOneWay: true,
+        isDataOnly: false,
+        dontGetRemoteStream: false,
+        dontAttachLocalStream: false,
+        connectionDescription: 
+         { remoteUserId: 'navi',
+           message: 
+            { newParticipationRequest: true,
+              isOneWay: false,
+              isDataOnly: false,
+              localPeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true },
+              remotePeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true } },
+           sender: 'qrmb411uys87h143fb6r',
+           password: false } } },
+  sender: 'navi' }
+navi : { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { enableMedia: true,
+     userPreferences: 
+      { extra: {},
+        localPeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true },
+        remotePeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true },
+        isOneWay: true,
+        isDataOnly: false,
+        dontGetRemoteStream: false,
+        dontAttachLocalStream: false,
+        connectionDescription: 
+         { remoteUserId: 'navi',
+           message: 
+            { newParticipationRequest: true,
+              isOneWay: false,
+              isDataOnly: false,
+              localPeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true },
+              remotePeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true } },
+           sender: 'qrmb411uys87h143fb6r',
+           password: false } } },
+  sender: 'navi' }
+socketMessageEvent { remoteUserId: 'navi',
+  message: 
+   { readyForOffer: true,
+     userPreferences: 
+      { extra: {},
+        localPeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true },
+        remotePeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true },
+        isOneWay: true,
+        isDataOnly: false,
+        dontGetRemoteStream: false,
+        dontAttachLocalStream: false,
+        connectionDescription: 
+         { remoteUserId: 'navi',
+           message: 
+            { newParticipationRequest: true,
+              isOneWay: false,
+              isDataOnly: false,
+              localPeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true },
+              remotePeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true } },
+           sender: 'qrmb411uys87h143fb6r',
+           password: false },
+        streamsToShare: { '{e545ca92-5e81-4a22-95fe-91bfe73f8f86}': {} } } },
+  sender: 'qrmb411uys87h143fb6r' }
+qrmb411uys87h143fb6r : { remoteUserId: 'navi',
+  message: 
+   { readyForOffer: true,
+     userPreferences: 
+      { extra: {},
+        localPeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true },
+        remotePeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true },
+        isOneWay: true,
+        isDataOnly: false,
+        dontGetRemoteStream: false,
+        dontAttachLocalStream: false,
+        connectionDescription: 
+         { remoteUserId: 'navi',
+           message: 
+            { newParticipationRequest: true,
+              isOneWay: false,
+              isDataOnly: false,
+              localPeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true },
+              remotePeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true } },
+           sender: 'qrmb411uys87h143fb6r',
+           password: false },
+        streamsToShare: { '{e545ca92-5e81-4a22-95fe-91bfe73f8f86}': {} } } },
+  sender: 'qrmb411uys87h143fb6r' }
+socketMessageEvent { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { type: 'offer',
+     sdp: 'v=0\r\no=mozilla...THIS_IS_SDPARTA-54.0 1189853082351538582 0 IN IP4 0.0.0.0\r\ns=-\r\nt=0 0\r\na=fingerprint:sha-256 66:A6:C5:69:DB:83:1B:7F:95:54:D6:4B:6B:DF:BA:55:10:BE:77:75:C1:D1:C6:CD:16:2A:4A:F3:A4:20:E9:52\r\na=group:BUNDLE sdparta_0 sdparta_1\r\na=ice-options:trickle\r\na=msid-semantic:WMS *\r\nm=audio 9 UDP/TLS/RTP/SAVPF 109 9 0 8 101\r\nc=IN IP4 0.0.0.0\r\na=sendrecv\r\na=extmap:1/sendonly urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=fmtp:109 maxplaybackrate=48000;stereo=1;useinbandfec=1\r\na=fmtp:101 0-15\r\na=ice-pwd:b4c497f118392de8f22091dd512557bd\r\na=ice-ufrag:95c0bdbd\r\na=mid:sdparta_0\r\na=msid:{bb00e176-68fe-4976-9a5b-f40e13522b20} {c9c767cf-e166-4fce-8dc9-0e33e8543441}\r\na=rtcp-mux\r\na=rtpmap:109 opus/48000/2\r\na=rtpmap:9 G722/8000/1\r\na=rtpmap:0 PCMU/8000\r\na=rtpmap:8 PCMA/8000\r\na=rtpmap:101 telephone-event/8000/1\r\na=setup:actpass\r\na=ssrc:2846375337 cname:{693cc2de-a280-4ff6-8f88-9c8270caac0d}\r\nm=video 9 UDP/TLS/RTP/SAVPF 120 121 126 97\r\nc=IN IP4 0.0.0.0\r\na=sendrecv\r\na=extmap:1 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:2 urn:ietf:params:rtp-hdrext:toffset\r\na=fmtp:126 profile-level-id=42e01f;level-asymmetry-allowed=1;packetization-mode=1\r\na=fmtp:97 profile-level-id=42e01f;level-asymmetry-allowed=1\r\na=fmtp:120 max-fs=12288;max-fr=60\r\na=fmtp:121 max-fs=12288;max-fr=60\r\na=ice-pwd:b4c497f118392de8f22091dd512557bd\r\na=ice-ufrag:95c0bdbd\r\na=mid:sdparta_1\r\na=msid:{bb00e176-68fe-4976-9a5b-f40e13522b20} {b5523a65-ca17-43ce-a224-1fb320d254d4}\r\na=rtcp-fb:120 nack\r\na=rtcp-fb:120 nack pli\r\na=rtcp-fb:120 ccm fir\r\na=rtcp-fb:120 goog-remb\r\na=rtcp-fb:121 nack\r\na=rtcp-fb:121 nack pli\r\na=rtcp-fb:121 ccm fir\r\na=rtcp-fb:121 goog-remb\r\na=rtcp-fb:126 nack\r\na=rtcp-fb:126 nack pli\r\na=rtcp-fb:126 ccm fir\r\na=rtcp-fb:126 goog-remb\r\na=rtcp-fb:97 nack\r\na=rtcp-fb:97 nack pli\r\na=rtcp-fb:97 ccm fir\r\na=rtcp-fb:97 goog-remb\r\na=rtcp-mux\r\na=rtpmap:120 VP8/90000\r\na=rtpmap:121 VP9/90000\r\na=rtpmap:126 H264/90000\r\na=rtpmap:97 H264/90000\r\na=setup:actpass\r\na=ssrc:2333381368 cname:{693cc2de-a280-4ff6-8f88-9c8270caac0d}\r\n',
+     remotePeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true },
+     renegotiatingPeer: false,
+     connectionDescription: 
+      { remoteUserId: 'navi',
+        message: 
+         { newParticipationRequest: true,
+           isOneWay: false,
+           isDataOnly: false,
+           localPeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true },
+           remotePeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true } },
+        sender: 'qrmb411uys87h143fb6r',
+        password: false },
+     dontGetRemoteStream: false,
+     extra: {},
+     streamsToShare: { '{bb00e176-68fe-4976-9a5b-f40e13522b20}': { isAudio: false, isVideo: true, isScreen: false } },
+     isFirefoxOffered: true },
+  sender: 'navi' }
+navi : { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { type: 'offer',
+     sdp: 'v=0\r\no=mozilla...THIS_IS_SDPARTA-54.0 1189853082351538582 0 IN IP4 0.0.0.0\r\ns=-\r\nt=0 0\r\na=fingerprint:sha-256 66:A6:C5:69:DB:83:1B:7F:95:54:D6:4B:6B:DF:BA:55:10:BE:77:75:C1:D1:C6:CD:16:2A:4A:F3:A4:20:E9:52\r\na=group:BUNDLE sdparta_0 sdparta_1\r\na=ice-options:trickle\r\na=msid-semantic:WMS *\r\nm=audio 9 UDP/TLS/RTP/SAVPF 109 9 0 8 101\r\nc=IN IP4 0.0.0.0\r\na=sendrecv\r\na=extmap:1/sendonly urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=fmtp:109 maxplaybackrate=48000;stereo=1;useinbandfec=1\r\na=fmtp:101 0-15\r\na=ice-pwd:b4c497f118392de8f22091dd512557bd\r\na=ice-ufrag:95c0bdbd\r\na=mid:sdparta_0\r\na=msid:{bb00e176-68fe-4976-9a5b-f40e13522b20} {c9c767cf-e166-4fce-8dc9-0e33e8543441}\r\na=rtcp-mux\r\na=rtpmap:109 opus/48000/2\r\na=rtpmap:9 G722/8000/1\r\na=rtpmap:0 PCMU/8000\r\na=rtpmap:8 PCMA/8000\r\na=rtpmap:101 telephone-event/8000/1\r\na=setup:actpass\r\na=ssrc:2846375337 cname:{693cc2de-a280-4ff6-8f88-9c8270caac0d}\r\nm=video 9 UDP/TLS/RTP/SAVPF 120 121 126 97\r\nc=IN IP4 0.0.0.0\r\na=sendrecv\r\na=extmap:1 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:2 urn:ietf:params:rtp-hdrext:toffset\r\na=fmtp:126 profile-level-id=42e01f;level-asymmetry-allowed=1;packetization-mode=1\r\na=fmtp:97 profile-level-id=42e01f;level-asymmetry-allowed=1\r\na=fmtp:120 max-fs=12288;max-fr=60\r\na=fmtp:121 max-fs=12288;max-fr=60\r\na=ice-pwd:b4c497f118392de8f22091dd512557bd\r\na=ice-ufrag:95c0bdbd\r\na=mid:sdparta_1\r\na=msid:{bb00e176-68fe-4976-9a5b-f40e13522b20} {b5523a65-ca17-43ce-a224-1fb320d254d4}\r\na=rtcp-fb:120 nack\r\na=rtcp-fb:120 nack pli\r\na=rtcp-fb:120 ccm fir\r\na=rtcp-fb:120 goog-remb\r\na=rtcp-fb:121 nack\r\na=rtcp-fb:121 nack pli\r\na=rtcp-fb:121 ccm fir\r\na=rtcp-fb:121 goog-remb\r\na=rtcp-fb:126 nack\r\na=rtcp-fb:126 nack pli\r\na=rtcp-fb:126 ccm fir\r\na=rtcp-fb:126 goog-remb\r\na=rtcp-fb:97 nack\r\na=rtcp-fb:97 nack pli\r\na=rtcp-fb:97 ccm fir\r\na=rtcp-fb:97 goog-remb\r\na=rtcp-mux\r\na=rtpmap:120 VP8/90000\r\na=rtpmap:121 VP9/90000\r\na=rtpmap:126 H264/90000\r\na=rtpmap:97 H264/90000\r\na=setup:actpass\r\na=ssrc:2333381368 cname:{693cc2de-a280-4ff6-8f88-9c8270caac0d}\r\n',
+     remotePeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true },
+     renegotiatingPeer: false,
+     connectionDescription: 
+      { remoteUserId: 'navi',
+        message: 
+         { newParticipationRequest: true,
+           isOneWay: false,
+           isDataOnly: false,
+           localPeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true },
+           remotePeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true } },
+        sender: 'qrmb411uys87h143fb6r',
+        password: false },
+     dontGetRemoteStream: false,
+     extra: {},
+     streamsToShare: { '{bb00e176-68fe-4976-9a5b-f40e13522b20}': { isAudio: false, isVideo: true, isScreen: false } },
+     isFirefoxOffered: true },
+  sender: 'navi' }
+socketMessageEvent { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:0 1 UDP 2122187007 192.168.7.73 57683 typ host',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+navi : { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:0 1 UDP 2122187007 192.168.7.73 57683 typ host',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+socketMessageEvent { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:10 1 UDP 2122252543 192.168.0.73 51230 typ host',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+navi : { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:10 1 UDP 2122252543 192.168.0.73 51230 typ host',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+socketMessageEvent { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:20 1 TCP 2105442559 192.168.7.73 60266 typ host tcptype passive',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+navi : { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:20 1 TCP 2105442559 192.168.7.73 60266 typ host tcptype passive',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+socketMessageEvent { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:20 1 TCP 2105458943 192.168.7.73 9 typ host tcptype active',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+navi : { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:20 1 TCP 2105458943 192.168.7.73 9 typ host tcptype active',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+socketMessageEvent { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:27 1 TCP 2105508095 192.168.0.73 50458 typ host tcptype passive',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+navi : { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:27 1 TCP 2105508095 192.168.0.73 50458 typ host tcptype passive',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+socketMessageEvent { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:27 1 TCP 2105524479 192.168.0.73 9 typ host tcptype active',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+navi : { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:27 1 TCP 2105524479 192.168.0.73 9 typ host tcptype active',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+socketMessageEvent { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:0 2 UDP 2122187006 192.168.7.73 47889 typ host',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+navi : { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:0 2 UDP 2122187006 192.168.7.73 47889 typ host',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+socketMessageEvent { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:10 2 UDP 2122252542 192.168.0.73 35204 typ host',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+navi : { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:10 2 UDP 2122252542 192.168.0.73 35204 typ host',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+socketMessageEvent { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:20 2 TCP 2105442558 192.168.7.73 50257 typ host tcptype passive',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+navi : { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:20 2 TCP 2105442558 192.168.7.73 50257 typ host tcptype passive',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+socketMessageEvent { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:20 2 TCP 2105458942 192.168.7.73 9 typ host tcptype active',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+navi : { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:20 2 TCP 2105458942 192.168.7.73 9 typ host tcptype active',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+socketMessageEvent { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:27 2 TCP 2105508094 192.168.0.73 51855 typ host tcptype passive',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+navi : { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:27 2 TCP 2105508094 192.168.0.73 51855 typ host tcptype passive',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+socketMessageEvent { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:27 2 TCP 2105524478 192.168.0.73 9 typ host tcptype active',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+navi : { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:27 2 TCP 2105524478 192.168.0.73 9 typ host tcptype active',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+socketMessageEvent { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:0 1 UDP 2122187007 192.168.7.73 42575 typ host',
+     sdpMid: 'sdparta_1',
+     sdpMLineIndex: 1 },
+  sender: 'navi' }
+navi : { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:0 1 UDP 2122187007 192.168.7.73 42575 typ host',
+     sdpMid: 'sdparta_1',
+     sdpMLineIndex: 1 },
+  sender: 'navi' }
+socketMessageEvent { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:10 1 UDP 2122252543 192.168.0.73 52760 typ host',
+     sdpMid: 'sdparta_1',
+     sdpMLineIndex: 1 },
+  sender: 'navi' }
+navi : { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:10 1 UDP 2122252543 192.168.0.73 52760 typ host',
+     sdpMid: 'sdparta_1',
+     sdpMLineIndex: 1 },
+  sender: 'navi' }
+socketMessageEvent { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:20 1 TCP 2105442559 192.168.7.73 58180 typ host tcptype passive',
+     sdpMid: 'sdparta_1',
+     sdpMLineIndex: 1 },
+  sender: 'navi' }
+navi : { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:20 1 TCP 2105442559 192.168.7.73 58180 typ host tcptype passive',
+     sdpMid: 'sdparta_1',
+     sdpMLineIndex: 1 },
+  sender: 'navi' }
+socketMessageEvent { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:20 1 TCP 2105458943 192.168.7.73 9 typ host tcptype active',
+     sdpMid: 'sdparta_1',
+     sdpMLineIndex: 1 },
+  sender: 'navi' }
+navi : { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:20 1 TCP 2105458943 192.168.7.73 9 typ host tcptype active',
+     sdpMid: 'sdparta_1',
+     sdpMLineIndex: 1 },
+  sender: 'navi' }
+socketMessageEvent { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:27 1 TCP 2105508095 192.168.0.73 60185 typ host tcptype passive',
+     sdpMid: 'sdparta_1',
+     sdpMLineIndex: 1 },
+  sender: 'navi' }
+navi : { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:27 1 TCP 2105508095 192.168.0.73 60185 typ host tcptype passive',
+     sdpMid: 'sdparta_1',
+     sdpMLineIndex: 1 },
+  sender: 'navi' }
+socketMessageEvent { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:27 1 TCP 2105524479 192.168.0.73 9 typ host tcptype active',
+     sdpMid: 'sdparta_1',
+     sdpMLineIndex: 1 },
+  sender: 'navi' }
+navi : { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:27 1 TCP 2105524479 192.168.0.73 9 typ host tcptype active',
+     sdpMid: 'sdparta_1',
+     sdpMLineIndex: 1 },
+  sender: 'navi' }
+socketMessageEvent { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:0 2 UDP 2122187006 192.168.7.73 52702 typ host',
+     sdpMid: 'sdparta_1',
+     sdpMLineIndex: 1 },
+  sender: 'navi' }
+navi : { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:0 2 UDP 2122187006 192.168.7.73 52702 typ host',
+     sdpMid: 'sdparta_1',
+     sdpMLineIndex: 1 },
+  sender: 'navi' }
+socketMessageEvent { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:10 2 UDP 2122252542 192.168.0.73 38963 typ host',
+     sdpMid: 'sdparta_1',
+     sdpMLineIndex: 1 },
+  sender: 'navi' }
+navi : { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:10 2 UDP 2122252542 192.168.0.73 38963 typ host',
+     sdpMid: 'sdparta_1',
+     sdpMLineIndex: 1 },
+  sender: 'navi' }
+socketMessageEvent { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:20 2 TCP 2105442558 192.168.7.73 61022 typ host tcptype passive',
+     sdpMid: 'sdparta_1',
+     sdpMLineIndex: 1 },
+  sender: 'navi' }
+navi : { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:20 2 TCP 2105442558 192.168.7.73 61022 typ host tcptype passive',
+     sdpMid: 'sdparta_1',
+     sdpMLineIndex: 1 },
+  sender: 'navi' }
+socketMessageEvent { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:20 2 TCP 2105458942 192.168.7.73 9 typ host tcptype active',
+     sdpMid: 'sdparta_1',
+     sdpMLineIndex: 1 },
+  sender: 'navi' }
+navi : { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:20 2 TCP 2105458942 192.168.7.73 9 typ host tcptype active',
+     sdpMid: 'sdparta_1',
+     sdpMLineIndex: 1 },
+  sender: 'navi' }
+socketMessageEvent { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:27 2 TCP 2105508094 192.168.0.73 63483 typ host tcptype passive',
+     sdpMid: 'sdparta_1',
+     sdpMLineIndex: 1 },
+  sender: 'navi' }
+navi : { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:27 2 TCP 2105508094 192.168.0.73 63483 typ host tcptype passive',
+     sdpMid: 'sdparta_1',
+     sdpMLineIndex: 1 },
+  sender: 'navi' }
+socketMessageEvent { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:27 2 TCP 2105524478 192.168.0.73 9 typ host tcptype active',
+     sdpMid: 'sdparta_1',
+     sdpMLineIndex: 1 },
+  sender: 'navi' }
+navi : { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:27 2 TCP 2105524478 192.168.0.73 9 typ host tcptype active',
+     sdpMid: 'sdparta_1',
+     sdpMLineIndex: 1 },
+  sender: 'navi' }
+socketMessageEvent { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:1 1 UDP 1685987327 103.15.66.210 57683 typ srflx raddr 192.168.7.73 rport 57683',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+navi : { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:1 1 UDP 1685987327 103.15.66.210 57683 typ srflx raddr 192.168.7.73 rport 57683',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+socketMessageEvent { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:1 2 UDP 1685987326 103.15.66.210 47889 typ srflx raddr 192.168.7.73 rport 47889',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+navi : { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:1 2 UDP 1685987326 103.15.66.210 47889 typ srflx raddr 192.168.7.73 rport 47889',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+socketMessageEvent { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:1 1 UDP 1685987327 103.15.66.210 42575 typ srflx raddr 192.168.7.73 rport 42575',
+     sdpMid: 'sdparta_1',
+     sdpMLineIndex: 1 },
+  sender: 'navi' }
+navi : { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:1 1 UDP 1685987327 103.15.66.210 42575 typ srflx raddr 192.168.7.73 rport 42575',
+     sdpMid: 'sdparta_1',
+     sdpMLineIndex: 1 },
+  sender: 'navi' }
+socketMessageEvent { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:21 1 TCP 1669226495 103.15.66.210 60266 typ srflx raddr 192.168.7.73 rport 60266 tcptype passive',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+navi : { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:21 1 TCP 1669226495 103.15.66.210 60266 typ srflx raddr 192.168.7.73 rport 60266 tcptype passive',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+socketMessageEvent { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:5 1 UDP 92151039 64.251.31.85 54064 typ relay raddr 64.251.31.85 rport 54064',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+navi : { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:5 1 UDP 92151039 64.251.31.85 54064 typ relay raddr 64.251.31.85 rport 54064',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+socketMessageEvent { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:1 2 UDP 1685987326 103.15.66.210 52702 typ srflx raddr 192.168.7.73 rport 52702',
+     sdpMid: 'sdparta_1',
+     sdpMLineIndex: 1 },
+  sender: 'navi' }
+navi : { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:1 2 UDP 1685987326 103.15.66.210 52702 typ srflx raddr 192.168.7.73 rport 52702',
+     sdpMid: 'sdparta_1',
+     sdpMLineIndex: 1 },
+  sender: 'navi' }
+socketMessageEvent { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:7 1 UDP 92150783 64.251.31.85 51789 typ relay raddr 64.251.31.85 rport 51789',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+navi : { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:7 1 UDP 92150783 64.251.31.85 51789 typ relay raddr 64.251.31.85 rport 51789',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+socketMessageEvent { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:9 1 UDP 92150015 64.251.31.85 38385 typ relay raddr 64.251.31.85 rport 38385',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+navi : { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:9 1 UDP 92150015 64.251.31.85 38385 typ relay raddr 64.251.31.85 rport 38385',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+socketMessageEvent { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:22 1 UDP 8265727 64.251.31.85 52299 typ relay raddr 64.251.31.85 rport 52299',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+navi : { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:22 1 UDP 8265727 64.251.31.85 52299 typ relay raddr 64.251.31.85 rport 52299',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+socketMessageEvent { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:24 1 UDP 8265727 64.251.31.85 50288 typ relay raddr 64.251.31.85 rport 50288',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+navi : { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:24 1 UDP 8265727 64.251.31.85 50288 typ relay raddr 64.251.31.85 rport 50288',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+socketMessageEvent { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:26 1 UDP 8265727 64.251.31.85 37798 typ relay raddr 64.251.31.85 rport 37798',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+navi : { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:26 1 UDP 8265727 64.251.31.85 37798 typ relay raddr 64.251.31.85 rport 37798',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+socketMessageEvent { remoteUserId: 'navi',
+  message: 
+   { type: 'answer',
+     sdp: 'v=0\r\no=mozilla...THIS_IS_SDPARTA-54.0 8817406365409781846 0 IN IP4 0.0.0.0\r\ns=-\r\nt=0 0\r\na=fingerprint:sha-256 F7:90:EE:AC:78:45:5A:7D:4E:F9:B4:F5:44:5F:48:84:87:CA:11:0A:43:77:2C:F6:41:C9:E4:FF:53:60:38:68\r\na=group:BUNDLE sdparta_0 sdparta_1\r\na=ice-options:trickle\r\na=msid-semantic:WMS *\r\nm=audio 9 UDP/TLS/RTP/SAVPF 109 101\r\nc=IN IP4 0.0.0.0\r\na=sendrecv\r\na=fmtp:109 maxplaybackrate=48000;stereo=1;useinbandfec=1\r\na=fmtp:101 0-15\r\na=ice-pwd:1376fb88671d84f3a88b37bd5622aa16\r\na=ice-ufrag:70aa4bf0\r\na=mid:sdparta_0\r\na=msid:{e545ca92-5e81-4a22-95fe-91bfe73f8f86} {f295e5d2-0f9e-49aa-8507-4a0a1649a5e8}\r\na=rtcp-mux\r\na=rtpmap:109 opus/48000/2\r\na=rtpmap:101 telephone-event/8000/1\r\na=setup:active\r\na=ssrc:2612179888 cname:{057ec96a-a3ef-434c-92b3-f9c256ecda7b}\r\nm=video 9 UDP/TLS/RTP/SAVPF 120\r\nc=IN IP4 0.0.0.0\r\na=sendrecv\r\na=extmap:1 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:2 urn:ietf:params:rtp-hdrext:toffset\r\na=fmtp:120 max-fs=12288;max-fr=60\r\na=ice-pwd:1376fb88671d84f3a88b37bd5622aa16\r\na=ice-ufrag:70aa4bf0\r\na=mid:sdparta_1\r\na=msid:{e545ca92-5e81-4a22-95fe-91bfe73f8f86} {b282a19c-b3e5-445c-8697-bd99d6657d71}\r\na=rtcp-fb:120 nack\r\na=rtcp-fb:120 nack pli\r\na=rtcp-fb:120 ccm fir\r\na=rtcp-fb:120 goog-remb\r\na=rtcp-mux\r\na=rtpmap:120 VP8/90000\r\na=setup:active\r\na=ssrc:1785741339 cname:{057ec96a-a3ef-434c-92b3-f9c256ecda7b}\r\n',
+     remotePeerSdpConstraints: false,
+     renegotiatingPeer: false,
+     connectionDescription: 
+      { remoteUserId: 'navi',
+        message: 
+         { newParticipationRequest: true,
+           isOneWay: false,
+           isDataOnly: false,
+           localPeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true },
+           remotePeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true } },
+        sender: 'qrmb411uys87h143fb6r',
+        password: false },
+     dontGetRemoteStream: false,
+     extra: {},
+     streamsToShare: { '{e545ca92-5e81-4a22-95fe-91bfe73f8f86}': { isAudio: false, isVideo: true, isScreen: false } },
+     isFirefoxOffered: true },
+  sender: 'qrmb411uys87h143fb6r' }
+qrmb411uys87h143fb6r : { remoteUserId: 'navi',
+  message: 
+   { type: 'answer',
+     sdp: 'v=0\r\no=mozilla...THIS_IS_SDPARTA-54.0 8817406365409781846 0 IN IP4 0.0.0.0\r\ns=-\r\nt=0 0\r\na=fingerprint:sha-256 F7:90:EE:AC:78:45:5A:7D:4E:F9:B4:F5:44:5F:48:84:87:CA:11:0A:43:77:2C:F6:41:C9:E4:FF:53:60:38:68\r\na=group:BUNDLE sdparta_0 sdparta_1\r\na=ice-options:trickle\r\na=msid-semantic:WMS *\r\nm=audio 9 UDP/TLS/RTP/SAVPF 109 101\r\nc=IN IP4 0.0.0.0\r\na=sendrecv\r\na=fmtp:109 maxplaybackrate=48000;stereo=1;useinbandfec=1\r\na=fmtp:101 0-15\r\na=ice-pwd:1376fb88671d84f3a88b37bd5622aa16\r\na=ice-ufrag:70aa4bf0\r\na=mid:sdparta_0\r\na=msid:{e545ca92-5e81-4a22-95fe-91bfe73f8f86} {f295e5d2-0f9e-49aa-8507-4a0a1649a5e8}\r\na=rtcp-mux\r\na=rtpmap:109 opus/48000/2\r\na=rtpmap:101 telephone-event/8000/1\r\na=setup:active\r\na=ssrc:2612179888 cname:{057ec96a-a3ef-434c-92b3-f9c256ecda7b}\r\nm=video 9 UDP/TLS/RTP/SAVPF 120\r\nc=IN IP4 0.0.0.0\r\na=sendrecv\r\na=extmap:1 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:2 urn:ietf:params:rtp-hdrext:toffset\r\na=fmtp:120 max-fs=12288;max-fr=60\r\na=ice-pwd:1376fb88671d84f3a88b37bd5622aa16\r\na=ice-ufrag:70aa4bf0\r\na=mid:sdparta_1\r\na=msid:{e545ca92-5e81-4a22-95fe-91bfe73f8f86} {b282a19c-b3e5-445c-8697-bd99d6657d71}\r\na=rtcp-fb:120 nack\r\na=rtcp-fb:120 nack pli\r\na=rtcp-fb:120 ccm fir\r\na=rtcp-fb:120 goog-remb\r\na=rtcp-mux\r\na=rtpmap:120 VP8/90000\r\na=setup:active\r\na=ssrc:1785741339 cname:{057ec96a-a3ef-434c-92b3-f9c256ecda7b}\r\n',
+     remotePeerSdpConstraints: false,
+     renegotiatingPeer: false,
+     connectionDescription: 
+      { remoteUserId: 'navi',
+        message: 
+         { newParticipationRequest: true,
+           isOneWay: false,
+           isDataOnly: false,
+           localPeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true },
+           remotePeerSdpConstraints: { OfferToReceiveAudio: true, OfferToReceiveVideo: true } },
+        sender: 'qrmb411uys87h143fb6r',
+        password: false },
+     dontGetRemoteStream: false,
+     extra: {},
+     streamsToShare: { '{e545ca92-5e81-4a22-95fe-91bfe73f8f86}': { isAudio: false, isVideo: true, isScreen: false } },
+     isFirefoxOffered: true },
+  sender: 'qrmb411uys87h143fb6r' }
+socketMessageEvent { remoteUserId: 'navi',
+  message: 
+   { candidate: 'candidate:0 1 UDP 2122187007 192.168.7.73 45937 typ host',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'qrmb411uys87h143fb6r' }
+qrmb411uys87h143fb6r : { remoteUserId: 'navi',
+  message: 
+   { candidate: 'candidate:0 1 UDP 2122187007 192.168.7.73 45937 typ host',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'qrmb411uys87h143fb6r' }
+socketMessageEvent { remoteUserId: 'navi',
+  message: 
+   { candidate: 'candidate:10 1 UDP 2122252543 192.168.0.73 51507 typ host',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'qrmb411uys87h143fb6r' }
+qrmb411uys87h143fb6r : { remoteUserId: 'navi',
+  message: 
+   { candidate: 'candidate:10 1 UDP 2122252543 192.168.0.73 51507 typ host',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'qrmb411uys87h143fb6r' }
+socketMessageEvent { remoteUserId: 'navi',
+  message: 
+   { candidate: 'candidate:20 1 TCP 2105442559 192.168.7.73 55503 typ host tcptype passive',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'qrmb411uys87h143fb6r' }
+qrmb411uys87h143fb6r : { remoteUserId: 'navi',
+  message: 
+   { candidate: 'candidate:20 1 TCP 2105442559 192.168.7.73 55503 typ host tcptype passive',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'qrmb411uys87h143fb6r' }
+socketMessageEvent { remoteUserId: 'navi',
+  message: 
+   { candidate: 'candidate:20 1 TCP 2105458943 192.168.7.73 9 typ host tcptype active',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'qrmb411uys87h143fb6r' }
+qrmb411uys87h143fb6r : { remoteUserId: 'navi',
+  message: 
+   { candidate: 'candidate:20 1 TCP 2105458943 192.168.7.73 9 typ host tcptype active',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'qrmb411uys87h143fb6r' }
+socketMessageEvent { remoteUserId: 'navi',
+  message: 
+   { candidate: 'candidate:27 1 TCP 2105508095 192.168.0.73 49301 typ host tcptype passive',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'qrmb411uys87h143fb6r' }
+qrmb411uys87h143fb6r : { remoteUserId: 'navi',
+  message: 
+   { candidate: 'candidate:27 1 TCP 2105508095 192.168.0.73 49301 typ host tcptype passive',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'qrmb411uys87h143fb6r' }
+socketMessageEvent { remoteUserId: 'navi',
+  message: 
+   { candidate: 'candidate:27 1 TCP 2105524479 192.168.0.73 9 typ host tcptype active',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'qrmb411uys87h143fb6r' }
+qrmb411uys87h143fb6r : { remoteUserId: 'navi',
+  message: 
+   { candidate: 'candidate:27 1 TCP 2105524479 192.168.0.73 9 typ host tcptype active',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'qrmb411uys87h143fb6r' }
+socketMessageEvent { remoteUserId: 'navi',
+  message: 
+   { candidate: 'candidate:1 1 UDP 1685987327 103.15.66.210 45937 typ srflx raddr 192.168.7.73 rport 45937',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'qrmb411uys87h143fb6r' }
+qrmb411uys87h143fb6r : { remoteUserId: 'navi',
+  message: 
+   { candidate: 'candidate:1 1 UDP 1685987327 103.15.66.210 45937 typ srflx raddr 192.168.7.73 rport 45937',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'qrmb411uys87h143fb6r' }
+socketMessageEvent { remoteUserId: 'navi',
+  message: 
+   { candidate: 'candidate:21 1 TCP 1669226495 103.15.66.210 55503 typ srflx raddr 192.168.7.73 rport 55503 tcptype passive',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'qrmb411uys87h143fb6r' }
+qrmb411uys87h143fb6r : { remoteUserId: 'navi',
+  message: 
+   { candidate: 'candidate:21 1 TCP 1669226495 103.15.66.210 55503 typ srflx raddr 192.168.7.73 rport 55503 tcptype passive',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'qrmb411uys87h143fb6r' }
+socketMessageEvent { remoteUserId: 'navi',
+  message: 
+   { candidate: 'candidate:5 1 UDP 92151039 64.251.31.85 50239 typ relay raddr 64.251.31.85 rport 50239',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'qrmb411uys87h143fb6r' }
+qrmb411uys87h143fb6r : { remoteUserId: 'navi',
+  message: 
+   { candidate: 'candidate:5 1 UDP 92151039 64.251.31.85 50239 typ relay raddr 64.251.31.85 rport 50239',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'qrmb411uys87h143fb6r' }
+socketMessageEvent { remoteUserId: 'navi',
+  message: 
+   { candidate: 'candidate:7 1 UDP 92150783 64.251.31.85 60500 typ relay raddr 64.251.31.85 rport 60500',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'qrmb411uys87h143fb6r' }
+qrmb411uys87h143fb6r : { remoteUserId: 'navi',
+  message: 
+   { candidate: 'candidate:7 1 UDP 92150783 64.251.31.85 60500 typ relay raddr 64.251.31.85 rport 60500',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'qrmb411uys87h143fb6r' }
+socketMessageEvent { remoteUserId: 'navi',
+  message: 
+   { candidate: 'candidate:9 1 UDP 92150015 64.251.31.85 46010 typ relay raddr 64.251.31.85 rport 46010',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'qrmb411uys87h143fb6r' }
+qrmb411uys87h143fb6r : { remoteUserId: 'navi',
+  message: 
+   { candidate: 'candidate:9 1 UDP 92150015 64.251.31.85 46010 typ relay raddr 64.251.31.85 rport 46010',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'qrmb411uys87h143fb6r' }
+socketMessageEvent { remoteUserId: 'navi',
+  message: 
+   { candidate: 'candidate:22 1 UDP 8265727 64.251.31.85 53324 typ relay raddr 64.251.31.85 rport 53324',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'qrmb411uys87h143fb6r' }
+qrmb411uys87h143fb6r : { remoteUserId: 'navi',
+  message: 
+   { candidate: 'candidate:22 1 UDP 8265727 64.251.31.85 53324 typ relay raddr 64.251.31.85 rport 53324',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'qrmb411uys87h143fb6r' }
+socketMessageEvent { remoteUserId: 'navi',
+  message: 
+   { candidate: 'candidate:24 1 UDP 8265727 64.251.31.85 57343 typ relay raddr 64.251.31.85 rport 57343',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'qrmb411uys87h143fb6r' }
+qrmb411uys87h143fb6r : { remoteUserId: 'navi',
+  message: 
+   { candidate: 'candidate:24 1 UDP 8265727 64.251.31.85 57343 typ relay raddr 64.251.31.85 rport 57343',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'qrmb411uys87h143fb6r' }
+socketMessageEvent { remoteUserId: 'navi',
+  message: 
+   { candidate: 'candidate:26 1 UDP 8265727 64.251.31.85 48701 typ relay raddr 64.251.31.85 rport 48701',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'qrmb411uys87h143fb6r' }
+qrmb411uys87h143fb6r : { remoteUserId: 'navi',
+  message: 
+   { candidate: 'candidate:26 1 UDP 8265727 64.251.31.85 48701 typ relay raddr 64.251.31.85 rport 48701',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'qrmb411uys87h143fb6r' }
+socketMessageEvent { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:21 2 TCP 1669226494 103.15.66.210 50257 typ srflx raddr 192.168.7.73 rport 50257 tcptype passive',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+navi : { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:21 2 TCP 1669226494 103.15.66.210 50257 typ srflx raddr 192.168.7.73 rport 50257 tcptype passive',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+socketMessageEvent { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:5 2 UDP 92151038 64.251.31.85 64182 typ relay raddr 64.251.31.85 rport 64182',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+navi : { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:5 2 UDP 92151038 64.251.31.85 64182 typ relay raddr 64.251.31.85 rport 64182',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+socketMessageEvent { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:7 2 UDP 92150782 64.251.31.85 49888 typ relay raddr 64.251.31.85 rport 49888',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+navi : { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:7 2 UDP 92150782 64.251.31.85 49888 typ relay raddr 64.251.31.85 rport 49888',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+socketMessageEvent { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:9 2 UDP 92150014 64.251.31.85 46829 typ relay raddr 64.251.31.85 rport 46829',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+navi : { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:9 2 UDP 92150014 64.251.31.85 46829 typ relay raddr 64.251.31.85 rport 46829',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+socketMessageEvent { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:22 2 UDP 8265726 64.251.31.85 53050 typ relay raddr 64.251.31.85 rport 53050',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+navi : { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:22 2 UDP 8265726 64.251.31.85 53050 typ relay raddr 64.251.31.85 rport 53050',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+socketMessageEvent { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:24 2 UDP 8265726 64.251.31.85 52156 typ relay raddr 64.251.31.85 rport 52156',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+navi : { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:24 2 UDP 8265726 64.251.31.85 52156 typ relay raddr 64.251.31.85 rport 52156',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+socketMessageEvent { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:26 2 UDP 8265726 64.251.31.85 51385 typ relay raddr 64.251.31.85 rport 51385',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+navi : { remoteUserId: 'qrmb411uys87h143fb6r',
+  message: 
+   { candidate: 'candidate:26 2 UDP 8265726 64.251.31.85 51385 typ relay raddr 64.251.31.85 rport 51385',
+     sdpMid: 'sdparta_0',
+     sdpMLineIndex: 0 },
+  sender: 'navi' }
+connect with Param : { 'EIO:3': '',
+  EIO: '3',
+  autoCloseEntireSession: 'false',
+  sessionid: 'raj',
+  socketCustomEvent: 'RTCMultiConnection-Custom-Message',
+  'transport:polling': '',
+  log: 'true',
+  't:LqiYB5k': '',
+  maxParticipantsAllowed: '1000',
+  userid: 'priya',
+  transport: 'polling',
+  msgEvent: 'video-conference-demo' }
+number of list of users'priya'
+socketMessageEvent { name: 'Rajendra' }
+connect with Param : { 'EIO:3': '',
+  EIO: '3',
+  autoCloseEntireSession: 'false',
+  sessionid: 'raj',
+  socketCustomEvent: 'RTCMultiConnection-Custom-Message',
+  'transport:polling': '',
+  log: 'true',
+  't:LqiYB5k': '',
+  maxParticipantsAllowed: '1000',
+  userid: 'priya',
+  transport: 'polling',
+  msgEvent: 'video-conference-demo' }
+number of list of users'priya'
+socketMessageEvent { message: 'Rajendra', remoteUserID: 'raj', sender: 'priya' }
+priya : { message: 'Rajendra', remoteUserID: 'raj', sender: 'priya' }
+socketMessageEvent { remoteUserId: 'navi',
+  message: { userLeft: true },
+  sender: 'qrmb411uys87h143fb6r' }
+qrmb411uys87h143fb6r : { remoteUserId: 'navi',
+  message: { userLeft: true },
+  sender: 'qrmb411uys87h143fb6r' }
+connect with Param : { 'EIO:3': '',
+  EIO: '3',
+  autoCloseEntireSession: 'false',
+  sessionid: 'raj',
+  socketCustomEvent: 'RTCMultiConnection-Custom-Message',
+  'transport:polling': '',
+  log: 'true',
+  't:LqiYB5k': '',
+  maxParticipantsAllowed: '1000',
+  userid: 'priya',
+  transport: 'polling',
+  msgEvent: 'video-conference-demo' }
+number of list of users'priya'
+socketMessageEvent { message: 'Rajendra', remoteUserID: 'raj', sender: 'priya' }
+priya : { message: 'Rajendra', remoteUserID: 'raj', sender: 'priya' }
+connect with Param : { userid: 'raj',
+  sessionid: 'raj',
+  msgEvent: 'video-conference-demo',
+  socketCustomEvent: 'RTCMultiConnection-Custom-Message',
+  autoCloseEntireSession: 'false',
+  maxParticipantsAllowed: '1000',
+  EIO: '3',
+  transport: 'polling',
+  t: 'Lr0U0HF' }
+number of list of users'raj'
+{}
