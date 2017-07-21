@@ -52,7 +52,6 @@ public class WebRtcClient {
         void onLocalStream(MediaStream localStream);
 
         void onAddRemoteStream(MediaStream remoteStream, int endPoint);
-
         void onRemoveRemoteStream(int endPoint);
     }
 
@@ -93,7 +92,7 @@ public class WebRtcClient {
         }
     }
 
-    private class AddIceCandidateCommand implements Command{
+    private class AddIceCandidateCommand implements Command {
         public void execute(String peerId, JSONObject payload) throws JSONException {
             Log.d(TAG,"AddIceCandidateCommand");
             PeerConnection pc = peers.get(peerId).pc;
@@ -280,12 +279,16 @@ public class WebRtcClient {
     public WebRtcClient(RtcListener listener, String host, PeerConnectionParameters params, EGLContext mEGLcontext) {
         mListener = listener;
         pcParams = params;
-        PeerConnectionFactory.initializeAndroidGlobals(listener, true, true,
-                params.videoCodecHwAcceleration, mEGLcontext);
+        PeerConnectionFactory.initializeAndroidGlobals(listener, true, true, params.videoCodecHwAcceleration, mEGLcontext);
         factory = new PeerConnectionFactory();
         MessageHandler messageHandler = new MessageHandler();
 
         try {
+            IO.Options options = new IO.Options();
+            options.forceNew =true;
+            options.reconnection =false;
+            options.secure=false;
+            options.query = "socketCustomEvent=RTCMultiConnection-Custom-Message&sessionid=priya&userid=raj&autoCloseEntireSession=false&msgEvent=video-conference-demo&maxParticipantsAllowed=1000&log=true&EIO:3&transport:polling&t:LqiYB5k";
             client = IO.socket(host);
         } catch (URISyntaxException e) {
             e.printStackTrace();
